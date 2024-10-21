@@ -19,14 +19,14 @@
     "personality": "INFP",
     "iq": 120,
     "eq": 110,
-    "introvert_extrovert_scale": 60,
-    "optimism_pessimism_scale": 80,
-    "risk_taking_scale": 40,
-    "emotional_stability": 70,
-    "openness_to_experience": 90,
-    "conscientiousness": 80,
-    "agreeableness": 85,
-    "neuroticism": 30
+    "introvert_extrovert_scale": 61,
+    "optimism_pessimism_scale": 79,
+    "risk_taking_scale": 41,
+    "emotional_stability": 71,
+    "openness_to_experience": 91,
+    "conscientiousness": 81,
+    "agreeableness": 86,
+    "neuroticism": 31
   },
   "education_and_career": {
     "current_occupation": "Senior Student",
@@ -75,134 +75,8 @@
     "patience": 80,
     "travel_experience": 60
   },
-  "experiences": [
-    {
-      "type": "Internship",
-      "organization": "Company A",
-      "role": "Marketing Intern",
-      "start_date": "2021-06-01",
-      "end_date": "2021-08-31",
-      "description": "Assisted in marketing campaigns and analyzed customer data."
-    },
-    {
-      "type": "Volunteer",
-      "organization": "Charity B",
-      "role": "Event Coordinator",
-      "start_date": "2020-03-15",
-      "end_date": "2021-05-15",
-      "description": "Organized fundraising events and managed volunteers."
-    },
-    {
-      "type": "Part-time Job",
-      "organization": "Cafe C",
-      "role": "Barista",
-      "start_date": "2019-09-01",
-      "end_date": "2020-02-29",
-      "description": "Prepared and served beverages to customers."
-    }
-  ],
-  "events_latest_10": [
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "Davis1",
-      "date": "2022-09-20",
-      "start_time": "10:00",
-      "end_time": "12:00",
-      "description": "Attended a study group for biology exam preparation."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "UC Davis Library",
-      "date": "2022-09-18",
-      "start_time": "14:00",
-      "end_time": "17:00",
-      "description": "Collaborated on a group project research at the library."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "Coffee Shop X",
-      "date": "2022-09-16",
-      "start_time": "08:30",
-      "end_time": null,
-      "description": "Met up with friends for breakfast and chatted about upcoming assignments."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "UC Davis Campus",
-      "date": "2022-09-15",
-      "start_time": "13:00",
-      "end_time": "15:00",
-      "description": "Attended a career fair to network with potential employers."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "Davis Park",
-      "date": "2022-09-13",
-      "start_time": "16:00",
-      "end_time": null,
-      "description": "Played frisbee and had a picnic with friends at the park."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "Local Gym",
-      "date": "2022-09-11",
-      "start_time": "09:00",
-      "end_time": null,
-      "description": "Took a yoga class to relax and unwind after a busy week."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "Student Commons",
-      "date": "2022-09-10",
-      "start_time": "12:30",
-      "end_time": null,
-      "description": "Attended a club meeting to discuss upcoming events and initiatives."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "Downtown Davis",
-      "date": "2022-09-08",
-      "start_time": "18:00",
-      "end_time": null,
-      "description": "Explored new restaurants in the area with roommates."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "Online",
-      "date": "2022-09-07",
-      "start_time": "20:00",
-      "end_time": "22:00",
-      "description": "Attended a virtual seminar on career development."
-    },
-    {
-      "id_of_character_invovled": [
-        4
-      ],
-      "location": "Movie Theater Y",
-      "date": "2022-09-05",
-      "start_time": "19:30",
-      "end_time": "22:00",
-      "description": "Watched the latest blockbuster movie with a group of friends."
-    }
-  ],
+  "experiences": [],
+  "events_latest_10": [],
   "highlight_3_max": [],
   "lowlight_3_max": []
 }

@@ -57,7 +57,7 @@ class Experience(BaseModel):
 
 
 class Event(BaseModel):
-    id_of_character_invovled: List[int]
+    id_of_character_involved: List[int]
     location: Optional[str] = None
     date: str = Field(..., pattern=r"^\d{4}-\d{2}-\d{2}$")
     start_time: str = Field(..., pattern=r"^\d{2}:\d{2}$")

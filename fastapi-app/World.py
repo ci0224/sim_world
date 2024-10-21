@@ -61,24 +61,25 @@ class World(BaseModel):
 
     async def sim_one_day(self):
         all_characters = await Character.get_all_characters()
+        self.advance_date()
         current_date = self.get_current_date()
         response = await chat_sim_one_day(all_characters, f"date: {current_date}")
 
         today_log_file = f"{current_date}.log"
-        with open(today_log_file, "w") as f:
+        with open(today_log_file, "a") as f:
             f.write(f"responses from chat_sim_one_day:\n{response}\n\n")
         self = World.load_from_json_str(response)
         self.events = await self.process_event()
-        self.advance_date()
         self.save()
         return {"date": current_date, "world": self.model_dump()}
 
     async def process_event(self, note=None):
         today_log_file = f"{self.get_current_date()}.log"
         new_event = []
-        with open(today_log_file, "w") as f:
+        with open(today_log_file, "a") as f:
+            f.write(f"Started processing events...\n")
             for event in self.events:
-                character_ids = event.id_of_character_invovled
+                character_ids = event.id_of_character_involved
                 related_characters = await asyncio.gather(
                     *[Character.get_character(c_id) for c_id in character_ids]
                 )
@@ -86,11 +87,12 @@ class World(BaseModel):
                     event, related_characters, self.weathers, note
                 )
 
-                f.write(f"responses from chat_sim_one_day:\n{response}\n\n")
+                f.write(f"responses from world_process_event:\n{response}\n\n")
                 # store back changed characters
                 response = json.loads(response)
                 for cj in response["related_characters"]:
                     char = Character(**cj)
                     char.save()
                 new_event.append(Event(**response["event"]))
+            f.write(f"Finished processing events.\n")
         return new_event
