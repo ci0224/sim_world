@@ -1793,3 +1793,900 @@
         }
     ]
 }
+{
+    "basic_info": {
+        "id": 4,
+        "name": "Alice",
+        "gender": "female",
+        "birthday": "1998-04-05",
+        "age": 23,
+        "nationality": "Chinese",
+        "ethnicity": "Asian",
+        "city": "Davis",
+        "home_city": "Beijing",
+        "native_language": "Mandarin",
+        "other_languages": ["English"],
+        "Zodiac_sign": "Aries"
+    },
+    "personality_and_psychology": {
+        "personality": "INFP",
+        "iq": 120,
+        "eq": 110,
+        "introvert_extrovert_scale": 60,
+        "optimism_pessimism_scale": 80,
+        "risk_taking_scale": 40,
+        "emotional_stability": 70,
+        "openness_to_experience": 90,
+        "conscientiousness": 80,
+        "agreeableness": 85,
+        "neuroticism": 30
+    },
+    "education_and_career": {
+        "current_occupation": "Senior Student",
+        "highest_education_level": "Bachelor",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 165.0,
+        "weight_in_kg": 55.0,
+        "eye_color": "Brown",
+        "hair_color": "Black",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Non-religious",
+        "political_views": "Neutral",
+        "hobbies": ["Reading", "Painting", "Hiking"],
+        "rent_in_usd": 800
+    },
+    "preferences": {
+        "favorite_color": "Blue",
+        "favorite_food": "Sushi",
+        "favorite_movie": "Inception",
+        "favorite_book": "Pride and Prejudice",
+        "favorite_music_genre": "Pop",
+        "favorite_sport": "Swimming",
+        "pet_preference": "Cat"
+    },
+    "skills_and_abilities": {
+        "leadership": 75,
+        "communication": 85,
+        "problem_solving": 80,
+        "creativity": 90,
+        "adaptability": 70,
+        "stress_management": 80,
+        "work_ethic": 85,
+        "time_management": 75,
+        "financial_management": 70,
+        "tech_savviness": 60,
+        "patience": 80,
+        "travel_experience": 60
+    },
+    "experiences": [
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        }
+    ],
+    "events_latest_10": [
+        {
+            "id_of_character_invovled": [1],
+            "location": "Davis1",
+            "date": "2022-09-20",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "description": "Attended a study group for biology exam preparation."
+        },
+        {
+            "id_of_character_invovled": [2, 3],
+            "location": "UC Davis Library",
+            "date": "2022-09-18",
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "description": "Collaborated on a group project research at the library."
+        },
+        {
+            "id_of_character_invovled": [4, 5],
+            "location": "Coffee Shop X",
+            "date": "2022-09-16",
+            "start_time": "08:30",
+            "end_time": null,
+            "description": "Met up with friends for breakfast and chatted about upcoming assignments."
+        },
+        {
+            "id_of_character_invovled": [6],
+            "location": "UC Davis Campus",
+            "date": "2022-09-15",
+            "start_time": "13:00",
+            "end_time": "15:00",
+            "description": "Attended a career fair to network with potential employers."
+        },
+        {
+            "id_of_character_invovled": [7, 8],
+            "location": "Davis Park",
+            "date": "2022-09-13",
+            "start_time": "16:00",
+            "end_time": null,
+            "description": "Played frisbee and had a picnic with friends at the park."
+        },
+        {
+            "id_of_character_invovled": [9],
+            "location": "Local Gym",
+            "date": "2022-09-11",
+            "start_time": "09:00",
+            "end_time": null,
+            "description": "Took a yoga class to relax and unwind after a busy week."
+        },
+        {
+            "id_of_character_invovled": [10, 11],
+            "location": "Student Commons",
+            "date": "2022-09-10",
+            "start_time": "12:30",
+            "end_time": null,
+            "description": "Attended a club meeting to discuss upcoming events and initiatives."
+        },
+        {
+            "id_of_character_invovled": [12, 13],
+            "location": "Downtown Davis",
+            "date": "2022-09-08",
+            "start_time": "18:00",
+            "end_time": null,
+            "description": "Explored new restaurants in the area with roommates."
+        },
+        {
+            "id_of_character_invovled": [14],
+            "location": "Online",
+            "date": "2022-09-07",
+            "start_time": "20:00",
+            "end_time": "22:00",
+            "description": "Attended a virtual seminar on career development."
+        },
+        {
+            "id_of_character_invovled": [15],
+            "location": "Movie Theater Y",
+            "date": "2022-09-05",
+            "start_time": "19:30",
+            "end_time": "22:00",
+            "description": "Watched the latest blockbuster movie with a group of friends."
+        }
+    ],
+    "highlight_3_max": [
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        }
+    ],
+    "lowlight_3_max": [
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        }
+    ]
+}
+{
+	"date": "2023-Aug-15",
+	"weather": [{
+			"city_name": "Emeryville, CA",
+			"weather": "Sunny with a high of 72°F"
+		},
+		{
+			"city_name": "London",
+			"weather": "Partly cloudy with a high of 68°F"
+		},
+		{
+			"city_name": "Beijing",
+			"weather": "Rainy with a high of 84°F"
+		},
+		{
+			"city_name": "Davis",
+			"weather": "Sunny with a high of 85°F"
+		}
+	],
+	"events": [{
+			"participant": [1],
+			"type": "work",
+			"start_time": "09:00",
+			"end_time": "17:00",
+			"description": "Alice Johnson, as a Marketing Manager, attends a strategy meeting with the marketing team to discuss upcoming campaigns and analyze market trends."
+		},
+		{
+			"participant": [2, 3],
+			"type": "work",
+			"start_time": "08:30",
+			"end_time": "16:30",
+			"description": "Bob Smith collaborates with Chen Wei on a software development project, focusing on implementing new features and debugging code."
+		},
+		{
+			"participant": [4],
+			"type": "education",
+			"start_time": "13:00",
+			"end_time": "15:00",
+			"description": "Alice attends a senior seminar at UC Davis to present her research findings on consumer behavior in digital marketing."
+		},
+		{
+			"participant": [3],
+			"type": "random",
+			"start_time": "19:00",
+			"end_time": "21:00",
+			"description": "Chen Wei meets up with a fellow graphic designer for a creative brainstorming session at a local cafe."
+		}
+	]
+}
+{
+    "basic_info": {
+        "id": 4,
+        "name": "Alice",
+        "gender": "female",
+        "birthday": "1998-04-05",
+        "age": 23,
+        "nationality": "Chinese",
+        "ethnicity": "Asian",
+        "city": "Davis",
+        "home_city": "Beijing",
+        "native_language": "Mandarin",
+        "other_languages": [
+            "English"
+        ],
+        "Zodiac_sign": "Aries"
+    },
+    "personality_and_psychology": {
+        "personality": "INFP",
+        "iq": 120,
+        "eq": 110,
+        "introvert_extrovert_scale": 60,
+        "optimism_pessimism_scale": 80,
+        "risk_taking_scale": 40,
+        "emotional_stability": 70,
+        "openness_to_experience": 90,
+        "conscientiousness": 80,
+        "agreeableness": 85,
+        "neuroticism": 30
+    },
+    "education_and_career": {
+        "current_occupation": "Senior Student",
+        "highest_education_level": "Bachelor",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 165.0,
+        "weight_in_kg": 55.0,
+        "eye_color": "Brown",
+        "hair_color": "Black",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Non-religious",
+        "political_views": "Neutral",
+        "hobbies": [
+            "Reading",
+            "Painting",
+            "Hiking"
+        ],
+        "rent_in_usd": 800
+    },
+    "preferences": {
+        "favorite_color": "Blue",
+        "favorite_food": "Sushi",
+        "favorite_movie": "Inception",
+        "favorite_book": "Pride and Prejudice",
+        "favorite_music_genre": "Pop",
+        "favorite_sport": "Swimming",
+        "pet_preference": "Cat"
+    },
+    "skills_and_abilities": {
+        "leadership": 75,
+        "communication": 85,
+        "problem_solving": 80,
+        "creativity": 90,
+        "adaptability": 70,
+        "stress_management": 80,
+        "work_ethic": 85,
+        "time_management": 75,
+        "financial_management": 70,
+        "tech_savviness": 60,
+        "patience": 80,
+        "travel_experience": 60
+    },
+    "experiences": [
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        }
+    ],
+    "events_latest_10": [
+        {
+            "id_of_character_invovled": [4],
+            "location": "Davis1",
+            "date": "2022-09-20",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "description": "Attended a study group for biology exam preparation."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "UC Davis Library",
+            "date": "2022-09-18",
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "description": "Collaborated on a group project research at the library."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "Coffee Shop X",
+            "date": "2022-09-16",
+            "start_time": "08:30",
+            "end_time": null,
+            "description": "Met up with friends for breakfast and chatted about upcoming assignments."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "UC Davis Campus",
+            "date": "2022-09-15",
+            "start_time": "13:00",
+            "end_time": "15:00",
+            "description": "Attended a career fair to network with potential employers."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "Davis Park",
+            "date": "2022-09-13",
+            "start_time": "16:00",
+            "end_time": null,
+            "description": "Played frisbee and had a picnic with friends at the park."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "Local Gym",
+            "date": "2022-09-11",
+            "start_time": "09:00",
+            "end_time": null,
+            "description": "Took a yoga class to relax and unwind after a busy week."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "Student Commons",
+            "date": "2022-09-10",
+            "start_time": "12:30",
+            "end_time": null,
+            "description": "Attended a club meeting to discuss upcoming events and initiatives."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "Downtown Davis",
+            "date": "2022-09-08",
+            "start_time": "18:00",
+            "end_time": null,
+            "description": "Explored new restaurants in the area with roommates."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "Online",
+            "date": "2022-09-07",
+            "start_time": "20:00",
+            "end_time": "22:00",
+            "description": "Attended a virtual seminar on career development."
+        },
+        {
+            "id_of_character_invovled": [4],
+            "location": "Movie Theater Y",
+            "date": "2022-09-05",
+            "start_time": "19:30",
+            "end_time": "22:00",
+            "description": "Watched the latest blockbuster movie with a group of friends."
+        }
+    ],
+    "highlight_3_max": [
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        }
+    ],
+    "lowlight_3_max": [
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        }
+    ]
+}
+{
+    "date": "2023-01-01",
+    "events": [
+        {
+            "id_of_character_invovled": [1],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "08:00",
+            "end_time": "09:00",
+            "description": "Morning yoga session at home"
+        },
+        {
+            "id_of_character_invovled": [1],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "description": "Virtual meeting with marketing team"
+        },
+        {
+            "id_of_character_invovled": [1],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "18:00",
+            "end_time": "20:00",
+            "description": "Dinner with friends at a local sushi restaurant"
+        },
+        {
+            "id_of_character_invovled": [2],
+            "location": "London",
+            "date": "2023-01-01",
+            "start_time": "09:00",
+            "end_time": "11:00",
+            "description": "Coding session for a new software feature"
+        },
+        {
+            "id_of_character_invovled": [2],
+            "location": "London",
+            "date": "2023-01-01",
+            "start_time": "14:00",
+            "end_time": "15:00",
+            "description": "Team meeting to discuss project timelines"
+        },
+        {
+            "id_of_character_invovled": [2],
+            "location": "London",
+            "date": "2023-01-01",
+            "start_time": "17:00",
+            "end_time": "19:00",
+            "description": "Hiking session in the nearby park"
+        },
+        {
+            "id_of_character_invovled": [3],
+            "location": "Beijing",
+            "date": "2023-01-01",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "description": "Graphic design work for a new client project"
+        },
+        {
+            "id_of_character_invovled": [3],
+            "location": "Beijing",
+            "date": "2023-01-01",
+            "start_time": "15:00",
+            "end_time": "16:00",
+            "description": "Virtual call with long-distance partner"
+        },
+        {
+            "id_of_character_invovled": [3],
+            "location": "Beijing",
+            "date": "2023-01-01",
+            "start_time": "19:00",
+            "end_time": "21:00",
+            "description": "Self-care time with meditation and painting"
+        }
+    ],
+    "weathers": [
+        {
+            "city_name": "Emeryville, CA",
+            "weather": "Sunny"
+        },
+        {
+            "city_name": "London",
+            "weather": "Partly Cloudy"
+        },
+        {
+            "city_name": "Beijing",
+            "weather": "Snow Showers"
+        }
+    ]
+}
+{
+    "date": "2023-01-01",
+    "events": [
+        {
+            "id_of_character_invovled": [
+                1
+            ],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "description": "Meeting with colleagues for a brainstorming session at work."
+        },
+        {
+            "id_of_character_invovled": [
+                1
+            ],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "15:00",
+            "end_time": "17:00",
+            "description": "Attending a yoga class with friends at the local studio."
+        },
+        {
+            "id_of_character_invovled": [
+                1
+            ],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "19:00",
+            "description": "Dinner with family at a favorite sushi restaurant."
+        }
+    ],
+    "weathers": [
+        {
+            "city_name": "Emeryville, CA",
+            "weather": "Partly Cloudy"
+        }
+    ]
+}
+{
+  "date": "2023-01-01",
+  "events": [
+    {
+      "id_of_character_invovled": [1],
+      "location": "Emeryville, CA",
+      "date": "2023-01-01",
+      "start_time": "08:00",
+      "end_time": null,
+      "description": "Enjoyed a sunny morning yoga session at home."
+    },
+    {
+      "id_of_character_invovled": [2],
+      "location": "London",
+      "date": "2023-01-01",
+      "start_time": "09:30",
+      "end_time": null,
+      "description": "Took a brisk walk in the cool, foggy London weather."
+    },
+    {
+      "id_of_character_invovled": [3],
+      "location": "Beijing",
+      "date": "2023-01-01",
+      "start_time": "12:00",
+      "end_time": null,
+      "description": "Had a cozy lunch with their partner in Beijing's chilly winter."
+    },
+    {
+      "id_of_character_invovled": [4],
+      "location": "Davis",
+      "date": "2023-01-01",
+      "start_time": "15:00",
+      "end_time": null,
+      "description": "Went for a refreshing hike under the clear skies of Davis."
+    }
+  ],
+  "weathers": [
+    {
+      "city_name": "Emeryville, CA",
+      "weather": "Sunny"
+    },
+    {
+      "city_name": "London",
+      "weather": "Cool and foggy"
+    },
+    {
+      "city_name": "Beijing",
+      "weather": "Chilly winter"
+    },
+    {
+      "city_name": "Davis",
+      "weather": "Clear skies"
+    }
+  ]
+}
+{
+  "date": "2023-01-01",
+  "events": [
+    {
+      "id_of_character_invovled": [],
+      "location": "Emeryville, CA",
+      "date": "2023-01-01",
+      "start_time": "08:00",
+      "end_time": "10:00",
+      "description": "Alice Johnson attends a yoga class to start the day with mindfulness and relaxation."
+    },
+    {
+      "id_of_character_invovled": [],
+      "location": "Emeryville, CA",
+      "date": "2023-01-01",
+      "start_time": "12:00",
+      "end_time": "14:00",
+      "description": "Alice Johnson meets a friend for lunch at her favorite sushi restaurant, enjoying her favorite food."
+    },
+    {
+      "id_of_character_invovled": [],
+      "location": "Emeryville, CA",
+      "date": "2023-01-01",
+      "start_time": "16:00",
+      "end_time": "18:00",
+      "description": "Alice Johnson spends time reading a new book at a cozy coffee shop, immersing herself in a different world."
+    }
+  ],
+  "weathers": [
+    {
+      "city_name": "Emeryville, CA",
+      "weather": "Partly cloudy with a gentle breeze, temperature around 68°F (20°C)."
+    }
+  ]
+}
+{
+  "date": "2023-01-01",
+  "events": [
+    {
+      "id_of_character_invovled": [1],
+      "location": "Emeryville, CA",
+      "date": "2023-01-01",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "description": "Attended a yoga class at the local studio for morning relaxation."
+    },
+    {
+      "id_of_character_invovled": [2],
+      "location": "London",
+      "date": "2023-01-01",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "description": "Worked on a new feature coding project at the office."
+    },
+    {
+      "id_of_character_invovled": [3],
+      "location": "Beijing",
+      "date": "2023-01-01",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "description": "Visited an art exhibition in the city to get inspired."
+    },
+    {
+      "id_of_character_invovled": [4],
+      "location": "Davis",
+      "date": "2023-01-01",
+      "start_time": "09:00",
+      "end_time": "11:00",
+      "description": "Studied at the library for upcoming exams with classmates."
+    }
+  ],
+  "weathers": [
+    {
+      "city_name": "Emeryville, CA",
+      "weather": "Sunny"
+    },
+    {
+      "city_name": "London",
+      "weather": "Cloudy"
+    },
+    {
+      "city_name": "Beijing",
+      "weather": "Snow"
+    },
+    {
+      "city_name": "Davis",
+      "weather": "Partly Cloudy"
+    }
+  ]
+}
+{
+  "related_characters": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "gender": "female",
+      "birthday": "1990-05-15",
+      "age": 33,
+      "nationality": "American",
+      "ethnicity": "Caucasian",
+      "city": "Emeryville, CA",
+      "home_city": "Emeryville, CA",
+      "native_language": "English",
+      "other_languages": [
+        "Spanish",
+        "French"
+      ],
+      "Zodiac_sign": "Taurus"
+    }
+  ],
+  "event": {
+    "id_of_character_invovled": [
+      1
+    ],
+    "location": "Emeryville, CA",
+    "date": "2023-01-01",
+    "start_time": "10:00",
+    "end_time": "12:00",
+    "description": "A thought-provoking yoga session at the local studio led by a renowned spiritual guru challenged Alice Johnson's perspective on life and spirituality. Alice, usually a pragmatic and analytical Marketing Manager, found herself deeply moved by the instructor's words about the interconnectedness of mind, body, and spirit. This experience sparked a newfound interest in mindfulness and holistic living for Alice, prompting her to explore new ways of self-care and personal growth. While the impact was significant in shifting Alice's mindset towards a more balanced lifestyle, it also brought a sense of serenity and inner peace that she had been yearning for. As a result, Alice's focus on work-life balance improved, leading to a more harmonious approach in managing her career and personal well-being."
+  }
+}
+{
+    "date": "2023-01-01",
+    "events": [
+        {
+            "id_of_character_invovled": [1],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "08:00",
+            "end_time": "10:00",
+            "description": "Morning yoga session at home to start the day with positivity."
+        },
+        {
+            "id_of_character_invovled": [1],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "12:00",
+            "end_time": "13:00",
+            "description": "Virtual book club meeting with friends to discuss 'To Kill a Mockingbird'."
+        },
+        {
+            "id_of_character_invovled": [1],
+            "location": "Emeryville, CA",
+            "date": "2023-01-01",
+            "start_time": "18:00",
+            "end_time": "20:00",
+            "description": "Cooking dinner with family and trying out a new sushi recipe."
+        }
+    ],
+    "weathers": [
+        {
+            "city_name": "Emeryville, CA",
+            "weather": "Partly cloudy with a chance of showers, temperature around 15°C."
+        }
+    ]
+}
+{
+  "date": "2023-01-01",
+  "events": [
+    {
+      "id_of_character_invovled": [1],
+      "location": "Emeryville, CA",
+      "date": "2023-01-01",
+      "start_time": "08:00",
+      "end_time": "10:00",
+      "description": "Morning Yoga session at a local studio"
+    },
+    {
+      "id_of_character_invovled": [1],
+      "location": "Emeryville, CA",
+      "date": "2023-01-01",
+      "start_time": "12:00",
+      "end_time": "13:00",
+      "description": "Lunch meeting with the marketing team at work"
+    },
+    {
+      "id_of_character_invovled": [1],
+      "location": "Emeryville, CA",
+      "date": "2023-01-01",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "description": "Attending a book club discussion on 'To Kill a Mockingbird'"
+    }
+  ],
+  "weathers": [
+    {
+      "city_name": "Emeryville, CA",
+      "weather": "Partly cloudy with a high of 18°C and a low of 8°C"
+    }
+  ]
+}
+{"related_characters": [{"BasicInfo": {"id": 1, "name": "Alice Johnson", "gender": "female", "birthday": "1990-05-15", "age": 33, "nationality": "American", "ethnicity": "Caucasian", "city": "Emeryville, CA", "home_city": "Emeryville, CA", "native_language": "English", "other_languages": ["Spanish", "French"], "Zodiac_sign": "Taurus"}, "EducationAndCareer": {"current_occupation": "Marketing Manager", "highest_education_level": "Master's Degree", "salary_in_usd": 0}, "Event": {"id_of_character_invovled": [1], "location": "Emeryville, CA", "date": "2023-01-01", "start_time": "08:00", "end_time": "10:00", "description": "Morning Yoga session at a local studio"}, "PhysicalAttributes": {"height_in_cm": 168.0, "weight_in_kg": 58.0, "eye_color": "Blue", "hair_color": "Blonde", "skin_tone": "Fair"}, "PersonalLife": {"relationship_status": "Single", "sexual_orientation": "Heterosexual", "religion": "Agnostic", "political_views": "Liberal", "hobbies": ["Yoga", "Reading", "Traveling"], "rent_in_usd": 0}, "Preferences": {"favorite_color": "Purple", "favorite_food": "Sushi", "favorite_movie": "The Shawshank Redemption", "favorite_book": "To Kill a Mockingbird", "favorite_music_genre": "Indie Rock", "favorite_sport": "Tennis", "pet_preference": "Dogs"}, "SkillsAndAbilities": {"leadership": 9, "communication": 9, "problem_solving": 8, "creativity": 7, "adaptability": 8, "stress_management": 7, "work_ethic": 9, "time_management": 8, "financial_management": 7, "tech_savviness": 8, "patience": 0, "travel_experience": 15}}]}

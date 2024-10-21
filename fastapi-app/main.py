@@ -5,12 +5,13 @@ import asyncio
 import json
 from datetime import datetime
 import os
+from World import World
 from Character import Character
-from chat import generate_ai_response, sim_one_day
+from chat import generate_ai_response
 
-from Character import Character
 
 Character.load_all_characters
+world = World.load_from_local()
 
 app = FastAPI()
 
@@ -81,11 +82,8 @@ def get_interaction_history():
 
 @app.get("/test")
 async def test():
-    all_characters = await Character.get_all_characters()
-    virtual_day_background = "2023-Aug-15"
-    response = await sim_one_day(all_characters, virtual_day_background)
-    print(response)
-    return {"test": json.loads(response)}
+    response = await world.sim_one_day()
+    return json.dumps(response)
 
 
 @app.get("/introduce_new")

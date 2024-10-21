@@ -2,12 +2,27 @@ import os
 from dotenv import load_dotenv
 from openai import OpenAI
 import json
+import functools
 
 load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 default_model = "gpt-3.5-turbo"
+
+
+@functools.lru_cache(maxsize=1)
+def get_character_schema():
+    from Character import Character
+
+    return Character.get_schema()
+
+
+@functools.lru_cache(maxsize=1)
+def get_event_schema():
+    from Character import Event
+
+    return Event.model_json_schema()
 
 
 async def generate_ai_response(prompt, character1, character2):
@@ -54,8 +69,10 @@ async def raw_completion(messages):
         return "I'm not sure how to respond to that."
 
 
-async def sim_one_day(all_character, date: str):
+async def chat_sim_one_day(all_character, date: str):
     all_character_json = [char.model_dump_json() for char in all_character]
+    from World import World
+
     messages = [
         {
             "role": "system",
@@ -70,18 +87,7 @@ today:{date} \
 weather in the city. \
 3. People will communicate with friends, family, coworkers, or strangers, and \
 these are not events unless it is really funny or hurts their feelings. \
-3. Return the simulated day in json strictly follows
-{{
-"date":today,
-"weather":[{{city_name: weather_in_stort_string }},...],
-"events":[{{
-"participent":[id_person_involved,...]
-"type":"work"|"education"|"volunteer"|"random"
-"start_time": like_10:29
-"end_time": like_19:29
-"description": "string_len_close_to_300"
-}},...]
-}}
+4. Return the simulated day in json strictly follows schema: {World.get_schema()}
 """,
         },
     ]
@@ -93,9 +99,7 @@ async def fix_character(user_data_json):
     This method will return a json of data that can be loaded as a Character
     """
 
-    from Character import Character
-
-    schema = Character.get_schema()
+    schema = get_character_schema()
     messages = [
         {
             "role": "system",
@@ -113,9 +117,7 @@ new schema is {schema}
 
 
 async def new_character(note, next_character_id=None):
-    from Character import Character
-
-    schema = Character.get_schema()
+    schema = get_character_schema()
     """
     This method will return a json of data that can be loaded as a Character
     """
@@ -123,13 +125,37 @@ async def new_character(note, next_character_id=None):
         {
             "role": "system",
             "content": f"""
-I will give you json a Person schema, please help generate a person for me. 
+I will give you json a Person schema, please help generate a person for me.
 {f"This person's id is {next_character_id}" if next_character_id else ""}\
 {note or ""}\
 1. Each new person must have more than 3 experiences, 10 events from past couple days.
 2. You MUST strictly follow the data schema.
 3. Return the result directly in json, without any explanations or thoughts.\
 person's schema is {schema} \
+""",
+        }
+    ]
+    return await raw_completion(messages)
+
+
+async def world_process_event(event, related_characters, waethers, note=None):
+    char_schema = get_character_schema()
+    event_schema = get_event_schema()
+    messages = [
+        {
+            "role": "system",
+            "content": f"""
+{note or ""}
+{json.dumps([w.model_dump() for w in waethers])}
+{json.dumps([c.model_dump() for c in related_characters])}
+{event.model_dump() }
+1. I will give you json of a Person schema, event, important characters invovled in this event.
+2. Please generate more reasonable details(~200 words) of the event based on the known info, and imagination.
+3. The event should have impact on the each character listed\
+(1.5% significant, 4.5% moderate, 74% changing a little bit, 10% no change)
+4. The relationship between characters(if applicable) will change based on the event.
+5. Return the result directly in json, without any explanations or thoughts, following \
+{{"related_characters": [{char_schema}...], "event":{event_schema}}}
 """,
         }
     ]

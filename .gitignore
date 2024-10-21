@@ -1,2 +1,3 @@
 fastapi-env/**
 .env
+fastapi-app/__pycache__/*

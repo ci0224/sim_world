@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field, ValidationError
 from enum import Enum
 import json
 import os
-from typing import List, Optional, Dict, Any, get_origin, get_args
+from typing import List, Optional, Dict, Any
 from chat import fix_character, new_character
 
 
@@ -156,8 +156,18 @@ class Character(BaseModel):
     skills_and_abilities: SkillsAndAbilities
     experiences: List[Experience]
     events_latest_10: List[Event]
-    highlight_3_max: List[Experience]
-    lowlight_3_max: List[Experience]
+    highlight_3_max: List[Event]
+    lowlight_3_max: List[Event]
+
+    def save(self):
+        os.makedirs("characters", exist_ok=True)
+        file_path = f"characters/{self.basic_info.id}.json"
+
+        with open(file_path, "w") as f:
+            json.dump(self.model_dump(), f, indent=2)
+
+        if CharacterStore._all_characters is not None:
+            CharacterStore._all_characters[self.basic_info.id] = self
 
     @classmethod
     def get_schema(cls) -> Dict[str, Any]:
@@ -181,15 +191,8 @@ class Character(BaseModel):
 
             fixed_data = await cls.fix_with_chat(json.dumps(data))
             character = cls(**json.loads(fixed_data))
-            character.save_to_json()
+            character.save()
             return character
-
-    def save_to_json(self):
-        os.makedirs("characters", exist_ok=True)
-        file_path = f"characters/{self.basic_info.id}.json"
-
-        with open(file_path, "w") as f:
-            json.dump(self.model_dump(), f, indent=2)
 
     @classmethod
     async def fix_with_chat(cls, user_data_json):
@@ -232,5 +235,5 @@ class Character(BaseModel):
         c = await new_character(note, 4)
         print(c)
         c = cls(**json.loads(c))
-        c.save_to_json()
+        c.save()
         return c
