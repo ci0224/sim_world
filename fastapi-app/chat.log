@@ -1,0 +1,1795 @@
+{
+	"participent": [1, 2, 3],
+	"date": "2023-Aug-15",
+	"weather": [{
+			"city_name": "Emeryville, CA",
+			"weather": "Sunny with a high of 25°C"
+		},
+		{
+			"city_name": "London",
+			"weather": "Partly cloudy with a high of 20°C"
+		},
+		{
+			"city_name": "Beijing",
+			"weather": "Thunderstorms with a high of 28°C"
+		}
+	],
+	"events": [{
+			"type": "work",
+			"start_time": "09:00",
+			"end_time": "17:00",
+			"description": "Alice Johnson, the Marketing Manager, starts her day by leading a campaign brainstorming session with her team. She then works on analyzing market trends and preparing a presentation for a client meeting in the afternoon."
+		},
+		{
+			"type": "work",
+			"start_time": "08:30",
+			"end_time": "16:30",
+			"description": "Bob Smith, the Software Engineer, focuses on debugging a critical issue in the company's software. He collaborates with his team to find a solution before testing the fix and deploying it to production."
+		},
+		{
+			"type": "work",
+			"start_time": "10:00",
+			"end_time": "18:00",
+			"description": "Chen Wei, the Graphic Designer, starts his day by designing a new brand logo for a client. He then reviews and provides feedback on the latest UI designs for a mobile app project."
+		},
+		{
+			"type": "random",
+			"start_time": "18:30",
+			"end_time": "21:00",
+			"description": "Alice enjoys a relaxing evening reading her favorite book, 'To Kill a Mockingbird,' while sipping on a glass of wine."
+		},
+		{
+			"type": "random",
+			"start_time": "19:00",
+			"end_time": "22:00",
+			"description": "Bob unwinds after work by playing his favorite video game and chatting with his friends online."
+		},
+		{
+			"type": "random",
+			"start_time": "20:00",
+			"end_time": "23:00",
+			"description": "Chen practices meditation to clear his mind and relax before bedtime, focusing on his breathing and inner peace."
+		}
+	]
+}
+{
+	"participant": [1, 2, 3],
+	"date": "2023-Aug-15",
+	"weather": [{
+			"city_name": "Emeryville, CA",
+			"weather": "Sunny with a high of 28°C"
+		},
+		{
+			"city_name": "London",
+			"weather": "Partly cloudy with a high of 22°C"
+		},
+		{
+			"city_name": "Beijing",
+			"weather": "Thunderstorms with a high of 25°C"
+		}
+	],
+	"events": [{
+			"type": "work",
+			"start_time": "09:00",
+			"end_time": "17:00",
+			"description": "Alice, as a Marketing Manager, starts her day by leading a team meeting to discuss the upcoming marketing campaign. She then focuses on analyzing market trends and developing strategies to increase brand awareness. In the afternoon, she collaborates with the design team to create visually appealing advertisements."
+		},
+		{
+			"type": "work",
+			"start_time": "08:30",
+			"end_time": "16:30",
+			"description": "Bob, a Software Engineer, dives into coding new features for a software project. He troubleshoots bugs, implements new functionalities, and conducts code reviews with his team. In the afternoon, he attends a meeting with stakeholders to provide updates on the project progress."
+		},
+		{
+			"type": "work",
+			"start_time": "10:00",
+			"end_time": "18:00",
+			"description": "Chen, a Graphic Designer, starts his day by brainstorming creative concepts for a client's branding project. He communicates closely with the client to ensure their vision is captured in the design. Throughout the day, he refines layouts, selects color schemes, and prepares presentations for client review."
+		},
+		{
+			"type": "random",
+			"start_time": "12:30",
+			"end_time": "13:30",
+			"description": "During lunchtime, Alice enjoys a virtual yoga session to relax and recharge for the rest of the day."
+		},
+		{
+			"type": "random",
+			"start_time": "13:00",
+			"end_time": "14:00",
+			"description": "Bob takes a break from coding to play a quick game of online chess with a colleague, adding some fun to his workday."
+		},
+		{
+			"type": "random",
+			"start_time": "15:30",
+			"end_time": "16:30",
+			"description": "Chen meets with a fellow designer for a coffee break and discusses the latest trends in graphic design, sparking creativity and inspiration."
+		}
+	]
+}
+{
+	"participent": [1, 2, 3],
+	"date": "2023-08-15",
+	"weather": [{
+			"city_name": "Emeryville, CA",
+			"weather": "Sunny with a high of 25°C"
+		},
+		{
+			"city_name": "London",
+			"weather": "Partly cloudy with a high of 22°C"
+		},
+		{
+			"city_name": "Beijing",
+			"weather": "Thunderstorms with a high of 28°C"
+		}
+	],
+	"events": [{
+			"type": "work",
+			"start_time": "09:00",
+			"end_time": "17:00",
+			"description": "Alice Johnson, the Marketing Manager, has a busy day at the office working on a new campaign, leading team meetings, and analyzing market trends."
+		},
+		{
+			"type": "work",
+			"start_time": "08:30",
+			"end_time": "16:30",
+			"description": "Bob Smith, the Software Engineer, spends the day coding new features, debugging software issues, and collaborating with his team on a new project."
+		},
+		{
+			"type": "work",
+			"start_time": "10:00",
+			"end_time": "18:00",
+			"description": "Chen Wei, the Graphic Designer, works on creating new designs for a client, attending creative meetings, and brainstorming ideas for a branding project."
+		},
+		{
+			"type": "random",
+			"start_time": "19:00",
+			"end_time": "21:00",
+			"description": "Alice meets up with a friend for dinner at her favorite sushi restaurant, enjoying some quality time catching up and sharing stories."
+		},
+		{
+			"type": "random",
+			"start_time": "20:00",
+			"end_time": "22:00",
+			"description": "Bob relaxes at home playing video games after a long day of work, unwinding and having a good time."
+		},
+		{
+			"type": "random",
+			"start_time": "18:30",
+			"end_time": "20:30",
+			"description": "Chen practices meditation in the park, finding peace and tranquility in the midst of a stormy weather in Beijing."
+		}
+	]
+}
+{
+  "date": "2023-Aug-15",
+  "weather": [
+    {
+      "city_name": "Emeryville, CA",
+      "weather_description": "Sunny with a slight breeze, 75°F"
+    },
+    {
+      "city_name": "London",
+      "weather_description": "Partly cloudy, 22°C"
+    },
+    {
+      "city_name": "Beijing",
+      "weather_description": "Rain showers, 25°C"
+    }
+  ],
+  "events": [
+    {
+      "participants": [1],
+      "type": "work",
+      "start_time": "09:00",
+      "end_time": "17:00",
+      "description": "Alice Johnson, the Marketing Manager, has a busy day planning upcoming marketing campaigns and meeting with her team to discuss strategies."
+    },
+    {
+      "participants": [2],
+      "type": "work",
+      "start_time": "08:30",
+      "end_time": "16:30",
+      "description": "Bob Smith, the Software Engineer, is focused on debugging and testing new features for a software project at his company."
+    },
+    {
+      "participants": [3],
+      "type": "work",
+      "start_time": "10:00",
+      "end_time": "18:00",
+      "description": "Chen Wei, the Graphic Designer, is working on creating visual concepts for a new client project and attending a design team meeting."
+    },
+    {
+      "participants": [1],
+      "type": "education",
+      "start_time": "19:00",
+      "end_time": "21:00",
+      "description": "After work, Alice attends a virtual workshop on the latest trends in digital marketing to enhance her skills."
+    },
+    {
+      "participants": [2],
+      "type": "random",
+      "start_time": "19:30",
+      "end_time": "21:30",
+      "description": "Bob enjoys a relaxing evening playing video games with his friends online."
+    },
+    {
+      "participants": [3],
+      "type": "volunteer",
+      "start_time": "16:30",
+      "end_time": "18:30",
+      "description": "Chen volunteers at a local orphanage, where he teaches children basic art skills and helps organize art activities."
+    }
+  ]
+}
+{
+    "basic_info": {
+        "id": 123456,
+        "name": "Alice Johnson",
+        "gender": "Female",
+        "birthday": "1990-05-15",
+        "age": 30,
+        "nationality": "American",
+        "ethnicity": "Caucasian",
+        "city": "New York",
+        "home_city": "Los Angeles",
+        "native_language": "English",
+        "other_languages": ["Spanish", "French"],
+        "Zodiac_sign": "Taurus",
+        "experiences": [
+            {
+                "title": "Bachelor's in Psychology",
+                "organization": "University of California",
+                "start_date": "2010-09",
+                "end_date": "2014-06"
+            },
+            {
+                "title": "Research Assistant",
+                "organization": "ABC Research Institute",
+                "start_date": "2014-07",
+                "end_date": "2016-08"
+            },
+            {
+                "title": "Masters in Counseling",
+                "organization": "New York University",
+                "start_date": "2016-09",
+                "end_date": "2018-05"
+            }
+        ],
+        "events": [],
+        "highlight_10_max": [],
+        "lowlight_10_max": []
+    },
+    "personality_and_psychology": {
+        "personality": "INFJ",
+        "iq": 130,
+        "eq": 110,
+        "introvert_extrovert_scale": 7,
+        "optimism_pessimism_scale": 8,
+        "risk_taking_scale": 5,
+        "emotional_stability": 9,
+        "openness_to_experience": 8,
+        "conscientiousness": 7,
+        "agreeableness": 9,
+        "neuroticism": 3
+    },
+    "education_and_career": {
+        "current_occupation": "Licensed Counselor",
+        "highest_education_level": "Masters",
+        "salary_in_usd": 60000
+    },
+    "physical_attributes": {
+        "height_in_cm": 165.1,
+        "weight_in_kg": 55.5,
+        "eye_color": "Green",
+        "hair_color": "Brown",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Christian",
+        "political_views": "Moderate",
+        "hobbies": ["Reading", "Yoga", "Painting"],
+        "rent_in_usd": 2000
+    },
+    "preferences": {
+        "favorite_color": "Blue",
+        "favorite_food": "Italian",
+        "favorite_movie": "The Shawshank Redemption",
+        "favorite_book": "To Kill a Mockingbird",
+        "favorite_music_genre": "Pop",
+        "favorite_sport": "Yoga",
+        "pet_preference": "Dog"
+    },
+    "skills_and_abilities": {
+        "leadership": 8,
+        "communication": 9,
+        "problem_solving": 7,
+        "creativity": 8,
+        "adaptability": 7,
+        "stress_management": 8,
+        "work_ethic": 9,
+        "time_management": 8,
+        "financial_management": 7,
+        "tech_savviness": 6,
+        "patience": 9,
+        "travel_experience": 5
+    }
+}
+{
+    "basic_info": {
+        "id": 12345,
+        "name": "Jane Doe",
+        "gender": "Female",
+        "birthday": "1990-05-15",
+        "age": 31,
+        "nationality": "American",
+        "ethnicity": "Caucasian",
+        "city": "New York",
+        "home_city": "Los Angeles",
+        "native_language": "English",
+        "other_languages": ["Spanish", "French"],
+        "Zodiac_sign": "Taurus",
+        "experiences": [
+            {
+                "title": "Bachelor's Degree in Psychology",
+                "institution": "University of California, Los Angeles",
+                "start_date": "2010-09",
+                "end_date": "2014-06"
+            },
+            {
+                "title": "Master's Degree in Counseling",
+                "institution": "Columbia University",
+                "start_date": "2015-09",
+                "end_date": "2017-06"
+            },
+            {
+                "title": "Internship at Mental Health Clinic",
+                "institution": "NYC Wellness Center",
+                "start_date": "2016-01",
+                "end_date": "2016-12"
+            }
+        ],
+        "events": [],
+        "highlight_10_max": [],
+        "lowlight_10_max": []
+    },
+    "personality_and_psychology": {
+        "personality": "ENFJ",
+        "iq": 120,
+        "eq": 110,
+        "introvert_extrovert_scale": 8,
+        "optimism_pessimism_scale": 7,
+        "risk_taking_scale": 6,
+        "emotional_stability": 8,
+        "openness_to_experience": 9,
+        "conscientiousness": 7,
+        "agreeableness": 9,
+        "neuroticism": 3
+    },
+    "education_and_career": {
+        "current_occupation": "Licensed Counselor",
+        "highest_education_level": "Master's Degree",
+        "salary_in_usd": 70000
+    },
+    "physical_attributes": {
+        "height_in_cm": 165.1,
+        "weight_in_kg": 60.0,
+        "eye_color": "Brown",
+        "hair_color": "Blonde",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Christian",
+        "political_views": "Moderate",
+        "hobbies": ["Reading", "Yoga", "Traveling"],
+        "rent_in_usd": 2000
+    },
+    "preferences": {
+        "favorite_color": "Blue",
+        "favorite_food": "Italian",
+        "favorite_movie": "The Shawshank Redemption",
+        "favorite_book": "To Kill a Mockingbird",
+        "favorite_music_genre": "Pop",
+        "favorite_sport": "Yoga",
+        "pet_preference": "Dog"
+    },
+    "skills_and_abilities": {
+        "leadership": 8,
+        "communication": 9,
+        "problem_solving": 7,
+        "creativity": 7,
+        "adaptability": 8,
+        "stress_management": 9,
+        "work_ethic": 8,
+        "time_management": 8,
+        "financial_management": 7,
+        "tech_savviness": 6,
+        "patience": 9,
+        "travel_experience": 9
+    }
+}
+{
+  "basic_info": {
+    "id": 41,
+    "name": "Alice Smith",
+    "gender": "Female",
+    "birthday": "1990-05-15",
+    "age": 30,
+    "nationality": "American",
+    "ethnicity": "Caucasian",
+    "city": "New York",
+    "home_city": "Los Angeles",
+    "native_language": "English",
+    "other_languages": ["Spanish", "French"],
+    "Zodiac_sign": "Taurus",
+    "experiences": [
+      {
+        "title": "Bachelor's Degree in Marketing",
+        "institution": "University of California, Los Angeles",
+        "start_date": "2010-09",
+        "end_date": "2014-05"
+      },
+      {
+        "title": "Marketing Manager",
+        "company": "ABC Marketing Agency",
+        "start_date": "2014-06",
+        "end_date": "2018-08"
+      },
+      {
+        "title": "Digital Marketing Director",
+        "company": "XYZ Tech Company",
+        "start_date": "2018-09",
+        "end_date": "2020-12"
+      }
+    ],
+    "events": [],
+    "highlight_10_max": [],
+    "lowlight_10_max": []
+  },
+  "personality_and_psychology": {
+    "personality": "ENFJ",
+    "iq": 120,
+    "eq": 110,
+    "introvert_extrovert_scale": 7,
+    "optimism_pessimism_scale": 8,
+    "risk_taking_scale": 6,
+    "emotional_stability": 9,
+    "openness_to_experience": 8,
+    "conscientiousness": 9,
+    "agreeableness": 7,
+    "neuroticism": 3
+  },
+  "education_and_career": {
+    "current_occupation": "Digital Marketing Consultant",
+    "highest_education_level": "Master's Degree",
+    "salary_in_usd": 80000
+  },
+  "physical_attributes": {
+    "height_in_cm": 165.1,
+    "weight_in_kg": 55.5,
+    "eye_color": "Brown",
+    "hair_color": "Blonde",
+    "skin_tone": "Fair"
+  },
+  "personal_life": {
+    "relationship_status": "Single",
+    "sexual_orientation": "Heterosexual",
+    "religion": "Christian",
+    "political_views": "Moderate",
+    "hobbies": ["Reading", "Yoga", "Traveling"],
+    "rent_in_usd": 2000
+  },
+  "preferences": {
+    "favorite_color": "Blue",
+    "favorite_food": "Italian",
+    "favorite_movie": "The Shawshank Redemption",
+    "favorite_book": "To Kill a Mockingbird",
+    "favorite_music_genre": "Pop",
+    "favorite_sport": "Yoga",
+    "pet_preference": "Dog"
+  },
+  "skills_and_abilities": {
+    "leadership": 8,
+    "communication": 9,
+    "problem_solving": 7,
+    "creativity": 8,
+    "adaptability": 9,
+    "stress_management": 7,
+    "work_ethic": 9,
+    "time_management": 8,
+    "financial_management": 7,
+    "tech_savviness": 8,
+    "patience": 7,
+    "travel_experience": 10
+  }
+}
+{
+    "basic_info": {
+        "id": 41,
+        "name": "Alice Smith",
+        "gender": "Female",
+        "birthday": "1990-03-15",
+        "age": 31,
+        "nationality": "American",
+        "ethnicity": "Caucasian",
+        "city": "New York",
+        "home_city": "Los Angeles",
+        "native_language": "English",
+        "other_languages": ["Spanish", "French"],
+        "Zodiac_sign": "Pisces",
+        "experiences": [
+            {
+                "type": "Education",
+                "description": "Alice completed her Bachelor's degree in Psychology from UCLA. She then pursued a Master's degree in Counseling Psychology from Columbia University, specializing in cognitive behavioral therapy."
+            },
+            {
+                "type": "Education",
+                "description": "Alice furthered her education with a Ph.D. in Clinical Psychology from Harvard University, focusing on trauma and resilience research. She completed her dissertation on the long-term effects of childhood trauma on adult mental health."
+            },
+            {
+                "type": "Work",
+                "description": "Alice gained practical experience during her internships at various mental health clinics, where she provided individual therapy to clients with mood disorders, anxiety, and PTSD. She also conducted psychological assessments and facilitated group therapy sessions."
+            }
+        ],
+        "events": [],
+        "highlight_10_max": [],
+        "lowlight_10_max": []
+    },
+    "personality_and_psychology": {
+        "personality": "INFP",
+        "iq": 130,
+        "eq": 120,
+        "introvert_extrovert_scale": 4,
+        "optimism_pessimism_scale": 8,
+        "risk_taking_scale": 3,
+        "emotional_stability": 7,
+        "openness_to_experience": 9,
+        "conscientiousness": 6,
+        "agreeableness": 8,
+        "neuroticism": 3
+    },
+    "education_and_career": {
+        "current_occupation": "Licensed Clinical Psychologist",
+        "highest_education_level": "Ph.D.",
+        "salary_in_usd": 90000
+    },
+    "physical_attributes": {
+        "height_in_cm": 165.1,
+        "weight_in_kg": 55.5,
+        "eye_color": "Brown",
+        "hair_color": "Blonde",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Agnostic",
+        "political_views": "Liberal",
+        "hobbies": ["Reading", "Yoga", "Hiking"],
+        "rent_in_usd": 2000
+    },
+    "preferences": {
+        "favorite_color": "Blue",
+        "favorite_food": "Sushi",
+        "favorite_movie": "Eternal Sunshine of the Spotless Mind",
+        "favorite_book": "The Bell Jar by Sylvia Plath",
+        "favorite_music_genre": "Indie Rock",
+        "favorite_sport": "Yoga",
+        "pet_preference": "Cats"
+    },
+    "skills_and_abilities": {
+        "leadership": 7,
+        "communication": 9,
+        "problem_solving": 8,
+        "creativity": 7,
+        "adaptability": 8,
+        "stress_management": 9,
+        "work_ethic": 8,
+        "time_management": 8,
+        "financial_management": 7,
+        "tech_savviness": 6,
+        "patience": 9,
+        "travel_experience": 6
+    }
+}
+{
+    "basic_info": {
+        "id": 41,
+        "name": "Emily Johnson",
+        "gender": "Female",
+        "birthday": "1990-05-13",
+        "age": 31,
+        "nationality": "American",
+        "ethnicity": "Caucasian",
+        "city": "New York",
+        "home_city": "Los Angeles",
+        "native_language": "English",
+        "other_languages": ["Spanish", "French"],
+        "Zodiac_sign": "Taurus",
+        "experiences": [
+            {
+                "type": "Education",
+                "description": "Emily completed her Bachelor's degree in Psychology from UCLA. She then pursued a Master's degree in Clinical Psychology at Columbia University to further her education and skills in the field."
+            },
+            {
+                "type": "Work",
+                "description": "After completing her education, Emily worked as a therapist at a mental health clinic in Manhattan. She provided counseling and therapy to individuals with various mental health challenges, gaining practical experience in the field."
+            },
+            {
+                "type": "Education",
+                "description": "Emily continued her education by enrolling in a Ph.D. program in Counseling Psychology at NYU. She focused on research and clinical practice to deepen her knowledge and expertise in the field of psychology."
+            }
+        ],
+        "events": [],
+        "highlight_10_max": [],
+        "lowlight_10_max": []
+    },
+    "personality_and_psychology": {
+        "personality": "INFJ",
+        "iq": 130,
+        "eq": 120,
+        "introvert_extrovert_scale": 3,
+        "optimism_pessimism_scale": 7,
+        "risk_taking_scale": 4,
+        "emotional_stability": 8,
+        "openness_to_experience": 9,
+        "conscientiousness": 7,
+        "agreeableness": 9,
+        "neuroticism": 3
+    },
+    "education_and_career": {
+        "current_occupation": "Ph.D. Candidate in Counseling Psychology",
+        "highest_education_level": "Ph.D.",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 165.1,
+        "weight_in_kg": 60,
+        "eye_color": "Blue",
+        "hair_color": "Blonde",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Christianity",
+        "political_views": "Moderate",
+        "hobbies": ["Reading", "Painting", "Yoga"],
+        "rent_in_usd": 2500
+    },
+    "preferences": {
+        "favorite_color": "Green",
+        "favorite_food": "Italian",
+        "favorite_movie": "Eternal Sunshine of the Spotless Mind",
+        "favorite_book": "The Alchemist",
+        "favorite_music_genre": "Indie Folk",
+        "favorite_sport": "Yoga",
+        "pet_preference": "Cats"
+    },
+    "skills_and_abilities": {
+        "leadership": 7,
+        "communication": 9,
+        "problem_solving": 8,
+        "creativity": 8,
+        "adaptability": 9,
+        "stress_management": 8,
+        "work_ethic": 9,
+        "time_management": 7,
+        "financial_management": 7,
+        "tech_savviness": 6,
+        "patience": 9,
+        "travel_experience": 6
+    }
+}
+{
+    "basic_info": {
+        "id": 41,
+        "name": "John Smith",
+        "gender": "Male",
+        "birthday": "1990-05-15",
+        "age": 31,
+        "nationality": "American",
+        "ethnicity": "Caucasian",
+        "city": "New York",
+        "home_city": "Los Angeles",
+        "native_language": "English",
+        "other_languages": ["Spanish", "French"],
+        "Zodiac_sign": "Taurus",
+        "experiences": [
+            {
+                "title": "Software Engineer",
+                "company": "Tech Co",
+                "duration": "3 years"
+            },
+            {
+                "title": "Project Manager",
+                "company": "Software Corp",
+                "duration": "2 years"
+            },
+            {
+                "title": "Freelance Web Developer",
+                "duration": "1 year"
+            },
+            {
+                "title": "Volunteer English Teacher",
+                "duration": "6 months"
+            }
+        ],
+        "events": [
+            {
+                "title": "Tech Conference Speaker",
+                "year": 2020
+            },
+            {
+                "title": "Hackathon Participant",
+                "year": 2019
+            }
+        ],
+        "highlight_10_max": [],
+        "lowlight_10_max": []
+    },
+    "personality_and_psychology": {
+        "personality": "ENFJ",
+        "iq": 120,
+        "eq": 110,
+        "introvert_extrovert_scale": 7,
+        "optimism_pessimism_scale": 8,
+        "risk_taking_scale": 6,
+        "emotional_stability": 9,
+        "openness_to_experience": 8,
+        "conscientiousness": 7,
+        "agreeableness": 9,
+        "neuroticism": 3
+    },
+    "education_and_career": {
+        "current_occupation": "Software Developer",
+        "highest_education_level": "Master's Degree",
+        "salary_in_usd": 90000
+    },
+    "physical_attributes": {
+        "height_in_cm": 180.5,
+        "weight_in_kg": 75,
+        "eye_color": "Blue",
+        "hair_color": "Brown",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Straight",
+        "religion": "None",
+        "political_views": "Moderate",
+        "hobbies": ["Hiking", "Photography", "Cooking"],
+        "rent_in_usd": 2000
+    },
+    "preferences": {
+        "favorite_color": "Blue",
+        "favorite_food": "Pizza",
+        "favorite_movie": "Inception",
+        "favorite_book": "The Alchemist",
+        "favorite_music_genre": "Pop",
+        "favorite_sport": "Soccer",
+        "pet_preference": "Dog"
+    },
+    "skills_and_abilities": {
+        "leadership": 8,
+        "communication": 9,
+        "problem_solving": 7,
+        "creativity": 8,
+        "adaptability": 7,
+        "stress_management": 8,
+        "work_ethic": 9,
+        "time_management": 8,
+        "financial_management": 7,
+        "tech_savviness": 9,
+        "patience": 7,
+        "travel_experience": 5
+    }
+}
+{
+  "basic_info": {
+    "id": 41,
+    "name": "Alice Smith",
+    "gender": "Female",
+    "birthday": "1990-05-12",
+    "age": 31,
+    "nationality": "American",
+    "ethnicity": "Caucasian",
+    "city": "New York",
+    "home_city": "Los Angeles",
+    "native_language": "English",
+    "other_languages": ["Spanish", "French"],
+    "Zodiac_sign": "Taurus",
+    "experiences": [
+      {
+        "type": "Work",
+        "organization": "ABC Company",
+        "role": "Project Manager",
+        "start_date": "2015-06-01",
+        "end_date": "2020-02-28",
+        "description": "Managed team projects and ensured timely delivery of products."
+      },
+      {
+        "type": "Volunteering",
+        "organization": "Local Community Center",
+        "role": "Events Coordinator",
+        "start_date": "2020-04-01",
+        "end_date": "2021-03-31",
+        "description": "Organized various community events and fundraisers."
+      },
+      {
+        "type": "Internship",
+        "organization": "Xyz Corporation",
+        "role": "Marketing Intern",
+        "start_date": "2014-01-15",
+        "end_date": "2014-06-30",
+        "description": "Assisted in marketing campaigns and social media strategies."
+      }
+    ],
+    "events": [],
+    "highlight_10_max": [],
+    "lowlight_10_max": []
+  },
+  "personality_and_psychology": {
+    "personality": "ENFJ",
+    "iq": 125,
+    "eq": 110,
+    "introvert_extrovert_scale": 8,
+    "optimism_pessimism_scale": 9,
+    "risk_taking_scale": 7,
+    "emotional_stability": 8,
+    "openness_to_experience": 9,
+    "conscientiousness": 8,
+    "agreeableness": 9,
+    "neuroticism": 3
+  },
+  "education_and_career": {
+    "current_occupation": "Marketing Manager",
+    "highest_education_level": "Master's degree",
+    "salary_in_usd": 80000
+  },
+  "physical_attributes": {
+    "height_in_cm": 165.1,
+    "weight_in_kg": 55.5,
+    "eye_color": "Brown",
+    "hair_color": "Blonde",
+    "skin_tone": "Fair"
+  },
+  "personal_life": {
+    "relationship_status": "Single",
+    "sexual_orientation": "Heterosexual",
+    "religion": "Christian",
+    "political_views": "Moderate",
+    "hobbies": ["Yoga", "Painting", "Reading"],
+    "rent_in_usd": 2000
+  },
+  "preferences": {
+    "favorite_color": "Blue",
+    "favorite_food": "Italian",
+    "favorite_movie": "La La Land",
+    "favorite_book": "Pride and Prejudice",
+    "favorite_music_genre": "Pop",
+    "favorite_sport": "Tennis",
+    "pet_preference": "Dog"
+  },
+  "skills_and_abilities": {
+    "leadership": 9,
+    "communication": 9,
+    "problem_solving": 8,
+    "creativity": 8,
+    "adaptability": 7,
+    "stress_management": 8,
+    "work_ethic": 9,
+    "time_management": 8,
+    "financial_management": 7,
+    "tech_savviness": 7,
+    "patience": 8,
+    "travel_experience": 5
+  }
+}
+{
+  "basic_info": {
+    "id": 41,
+    "name": "Alice",
+    "gender": "female",
+    "birthday": "1990-05-15",
+    "age": 31,
+    "nationality": "American",
+    "ethnicity": "Caucasian",
+    "city": "New York",
+    "home_city": "Los Angeles",
+    "native_language": "English",
+    "other_languages": ["Spanish", "French"],
+    "Zodiac_sign": "Taurus",
+    "experiences": [
+      {
+        "type": "Work",
+        "organization": "Tech Company",
+        "role": "Software Engineer",
+        "start_date": "2015-09-20",
+        "end_date": null,
+        "description": "Developing innovative software solutions"
+      },
+      {
+        "type": "Internship",
+        "organization": "Marketing Agency",
+        "role": "Marketing Intern",
+        "start_date": "2014-06-10",
+        "end_date": "2014-09-10",
+        "description": "Assisting with various marketing campaigns"
+      },
+      {
+        "type": "Volunteering",
+        "organization": "Local Charity",
+        "role": "Event Coordinator",
+        "start_date": "2012-03-05",
+        "end_date": "2013-05-15",
+        "description": "Organizing fundraising events"
+      }
+    ],
+    "events": [],
+    "highlight_10_max": [],
+    "lowlight_10_max": []
+  },
+  "personality_and_psychology": {
+    "personality": "INFP",
+    "iq": 130,
+    "eq": 120,
+    "introvert_extrovert_scale": 60,
+    "optimism_pessimism_scale": 80,
+    "risk_taking_scale": 40,
+    "emotional_stability": 70,
+    "openness_to_experience": 90,
+    "conscientiousness": 75,
+    "agreeableness": 85,
+    "neuroticism": 25
+  },
+  "education_and_career": {
+    "current_occupation": "Software Engineer",
+    "highest_education_level": "Master's Degree",
+    "salary_in_usd": 90000
+  },
+  "physical_attributes": {
+    "height_in_cm": 165,
+    "weight_in_kg": 55,
+    "eye_color": "Blue",
+    "hair_color": "Blonde",
+    "skin_tone": "Fair"
+  },
+  "personal_life": {
+    "relationship_status": "Single",
+    "sexual_orientation": "Straight",
+    "religion": "Christian",
+    "political_views": "Liberal",
+    "hobbies": ["Hiking", "Painting", "Reading"],
+    "rent_in_usd": 2000
+  },
+  "preferences": {
+    "favorite_color": "Purple",
+    "favorite_food": "Sushi",
+    "favorite_movie": "La La Land",
+    "favorite_book": "The Alchemist",
+    "favorite_music_genre": "Indie Folk",
+    "favorite_sport": "Yoga",
+    "pet_preference": "Cat"
+  },
+  "skills_and_abilities": {
+    "leadership": 85,
+    "communication": 90,
+    "problem_solving": 80,
+    "creativity": 75,
+    "adaptability": 85,
+    "stress_management": 70,
+    "work_ethic": 80,
+    "time_management": 85,
+    "financial_management": 75,
+    "tech_savviness": 90,
+    "patience": 80,
+    "travel_experience": 70
+  }
+}
+{
+    "basic_info": {
+        "id": 1,
+        "name": "Alice Johnson",
+        "gender": "female",
+        "birthday": "1990-05-15",
+        "age": 33,
+        "nationality": "American",
+        "ethnicity": "Caucasian",
+        "city": "Emeryville, CA",
+        "home_city": "Emeryville, CA",
+        "native_language": "English",
+        "other_languages": [
+            "Spanish",
+            "French"
+        ],
+        "Zodiac_sign": "Taurus"
+    },
+    "personality_and_psychology": {
+        "personality": "ENFJ",
+        "iq": 125,
+        "eq": 110,
+        "introvert_extrovert_scale": 8,
+        "optimism_pessimism_scale": 7,
+        "risk_taking_scale": 6,
+        "emotional_stability": 8,
+        "openness_to_experience": 9,
+        "conscientiousness": 8,
+        "agreeableness": 9,
+        "neuroticism": 3
+    },
+    "education_and_career": {
+        "current_occupation": "Marketing Manager",
+        "highest_education_level": "Master's Degree",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 168.0,
+        "weight_in_kg": 58.0,
+        "eye_color": "Blue",
+        "hair_color": "Blonde",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Agnostic",
+        "political_views": "Liberal",
+        "hobbies": [
+            "Yoga",
+            "Reading",
+            "Traveling"
+        ],
+        "rent_in_usd": 0
+    },
+    "preferences": {
+        "favorite_color": "Purple",
+        "favorite_food": "Sushi",
+        "favorite_movie": "The Shawshank Redemption",
+        "favorite_book": "To Kill a Mockingbird",
+        "favorite_music_genre": "Indie Rock",
+        "favorite_sport": "Tennis",
+        "pet_preference": "Dogs"
+    },
+    "skills_and_abilities": {
+        "leadership": 9,
+        "communication": 9,
+        "problem_solving": 8,
+        "creativity": 7,
+        "adaptability": 8,
+        "stress_management": 7,
+        "work_ethic": 9,
+        "time_management": 8,
+        "financial_management": 7,
+        "tech_savviness": 8,
+        "patience": 0,
+        "travel_experience": 15
+    },
+    "experiences": [],
+    "events": [],
+    "highlight_3_max": [],
+    "lowlight_3_max": []
+}
+{
+    "basic_info": {
+        "id": 2,
+        "name": "Bob Smith",
+        "gender": "male",
+        "birthday": "1988-09-03",
+        "age": 35,
+        "nationality": "British",
+        "ethnicity": "African-British",
+        "city": "London",
+        "home_city": "London",
+        "native_language": "English",
+        "other_languages": ["French"],
+        "Zodiac_sign": "Virgo"
+    },
+    "personality_and_psychology": {
+        "personality": "ISTP",
+        "iq": 135,
+        "eq": 95,
+        "introvert_extrovert_scale": 3,
+        "optimism_pessimism_scale": 5,
+        "risk_taking_scale": 4,
+        "emotional_stability": 7,
+        "openness_to_experience": 8,
+        "conscientiousness": 9,
+        "agreeableness": 6,
+        "neuroticism": 4
+    },
+    "education_and_career": {
+        "current_occupation": "Software Engineer",
+        "highest_education_level": "Bachelor's Degree",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 180.0,
+        "weight_in_kg": 75.0,
+        "eye_color": "Brown",
+        "hair_color": "Black",
+        "skin_tone": "Dark"
+    },
+    "personal_life": {
+        "relationship_status": "Married",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Atheist",
+        "political_views": "Centrist",
+        "hobbies": ["Coding", "Gaming", "Hiking"],
+        "rent_in_usd": 0
+    },
+    "preferences": {
+        "favorite_color": "Green",
+        "favorite_food": "Curry",
+        "favorite_movie": "The Matrix",
+        "favorite_book": "Neuromancer",
+        "favorite_music_genre": "Electronic",
+        "favorite_sport": "Basketball",
+        "pet_preference": "Cats"
+    },
+    "skills_and_abilities": {
+        "leadership": 6,
+        "communication": 7,
+        "problem_solving": 10,
+        "creativity": 8,
+        "adaptability": 7,
+        "stress_management": 6,
+        "work_ethic": 9,
+        "time_management": 8,
+        "financial_management": 8,
+        "tech_savviness": 10,
+        "patience": 0,
+        "travel_experience": 8
+    },
+    "experiences": [],
+    "events": [],
+    "highlight_3_max": [],
+    "lowlight_3_max": []
+}
+{
+    "basic_info": {
+        "id": 3,
+        "name": "Chen Wei",
+        "gender": "male",
+        "birthday": "1995-11-18",
+        "age": 28,
+        "nationality": "Chinese",
+        "ethnicity": "Han Chinese",
+        "city": "Beijing",
+        "home_city": "Beijing",
+        "native_language": "Mandarin",
+        "other_languages": [
+            "English",
+            "Japanese"
+        ],
+        "Zodiac_sign": "Scorpio"
+    },
+    "personality_and_psychology": {
+        "personality": "ENFP",
+        "iq": 118,
+        "eq": 130,
+        "introvert_extrovert_scale": 7,
+        "optimism_pessimism_scale": 8,
+        "risk_taking_scale": 6,
+        "emotional_stability": 8,
+        "openness_to_experience": 10,
+        "conscientiousness": 7,
+        "agreeableness": 9,
+        "neuroticism": 5
+    },
+    "education_and_career": {
+        "current_occupation": "Graphic Designer",
+        "highest_education_level": "Master's Degree",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 165.0,
+        "weight_in_kg": 55.0,
+        "eye_color": "Black",
+        "hair_color": "Black",
+        "skin_tone": "Light"
+    },
+    "personal_life": {
+        "relationship_status": "In a relationship",
+        "sexual_orientation": "Pansexual",
+        "religion": "Buddhist",
+        "political_views": "Progressive",
+        "hobbies": [
+            "Painting",
+            "Photography",
+            "Meditation"
+        ],
+        "rent_in_usd": 0
+    },
+    "preferences": {
+        "favorite_color": "Turquoise",
+        "favorite_food": "Hot Pot",
+        "favorite_movie": "Spirited Away",
+        "favorite_book": "The Little Prince",
+        "favorite_music_genre": "World Music",
+        "favorite_sport": "Tai Chi",
+        "pet_preference": "Fish"
+    },
+    "skills_and_abilities": {
+        "leadership": 7,
+        "communication": 9,
+        "problem_solving": 8,
+        "creativity": 10,
+        "adaptability": 9,
+        "stress_management": 8,
+        "work_ethic": 8,
+        "time_management": 7,
+        "financial_management": 6,
+        "tech_savviness": 8,
+        "patience": 0,
+        "travel_experience": 12
+    },
+    "experiences": [],
+    "events": [],
+    "highlight_3_max": [],
+    "lowlight_3_max": []
+}
+{
+	"date": "2023-Aug-15",
+	"weather": [{
+			"city_name": "Emeryville, CA",
+			"weather_info": "Partly Cloudy, 26°C"
+		},
+		{
+			"city_name": "London",
+			"weather_info": "Sunny, 22°C"
+		},
+		{
+			"city_name": "Beijing",
+			"weather_info": "Thunderstorms, 30°C"
+		}
+	],
+	"events": [{
+			"participants": [1],
+			"type": "work",
+			"start_time": "09:00",
+			"end_time": "17:00",
+			"description": "Alice, the Marketing Manager, focuses on a new campaign strategy for an upcoming product launch."
+		},
+		{
+			"participants": [2],
+			"type": "work",
+			"start_time": "08:30",
+			"end_time": "16:30",
+			"description": "Bob, the Software Engineer, attends a team meeting to discuss a new project timeline."
+		},
+		{
+			"participants": [3],
+			"type": "work",
+			"start_time": "10:00",
+			"end_time": "18:00",
+			"description": "Chen, the Graphic Designer, collaborates with the art department on a visual branding project."
+		},
+		{
+			"participants": [1],
+			"type": "random",
+			"start_time": "19:00",
+			"end_time": "21:00",
+			"description": "After work, Alice meets a friend for dinner and discusses their upcoming travel plans."
+		}
+	]
+}
+{
+    "basic_info": {
+        "id": 1,
+        "name": "Alice Johnson",
+        "gender": "female",
+        "birthday": "1990-05-15",
+        "age": 33,
+        "nationality": "American",
+        "ethnicity": "Caucasian",
+        "city": "Emeryville, CA",
+        "home_city": "Emeryville, CA",
+        "native_language": "English",
+        "other_languages": ["Spanish", "French"],
+        "Zodiac_sign": "Taurus"
+    },
+    "personality_and_psychology": {
+        "personality": "ENFJ",
+        "iq": 125,
+        "eq": 110,
+        "introvert_extrovert_scale": 8,
+        "optimism_pessimism_scale": 7,
+        "risk_taking_scale": 6,
+        "emotional_stability": 8,
+        "openness_to_experience": 9,
+        "conscientiousness": 8,
+        "agreeableness": 9,
+        "neuroticism": 3
+    },
+    "education_and_career": {
+        "current_occupation": "Marketing Manager",
+        "highest_education_level": "Master's Degree",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 168.0,
+        "weight_in_kg": 58.0,
+        "eye_color": "Blue",
+        "hair_color": "Blonde",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Agnostic",
+        "political_views": "Liberal",
+        "hobbies": ["Yoga", "Reading", "Traveling"],
+        "rent_in_usd": 0
+    },
+    "preferences": {
+        "favorite_color": "Purple",
+        "favorite_food": "Sushi",
+        "favorite_movie": "The Shawshank Redemption",
+        "favorite_book": "To Kill a Mockingbird",
+        "favorite_music_genre": "Indie Rock",
+        "favorite_sport": "Tennis",
+        "pet_preference": "Dogs"
+    },
+    "skills_and_abilities": {
+        "leadership": 9,
+        "communication": 9,
+        "problem_solving": 8,
+        "creativity": 7,
+        "adaptability": 8,
+        "stress_management": 7,
+        "work_ethic": 9,
+        "time_management": 8,
+        "financial_management": 7,
+        "tech_savviness": 8,
+        "patience": 0,
+        "travel_experience": 15
+    },
+    "experiences": [],
+    "events_latest_10": [],
+    "highlight_3_max": [],
+    "lowlight_3_max": []
+}
+{
+    "basic_info": {
+        "id": 2,
+        "name": "Bob Smith",
+        "gender": "male",
+        "birthday": "1988-09-03",
+        "age": 35,
+        "nationality": "British",
+        "ethnicity": "African-British",
+        "city": "London",
+        "home_city": "London",
+        "native_language": "English",
+        "other_languages": ["French"],
+        "Zodiac_sign": "Virgo"
+    },
+    "personality_and_psychology": {
+        "personality": "ISTP",
+        "iq": 135,
+        "eq": 95,
+        "introvert_extrovert_scale": 3,
+        "optimism_pessimism_scale": 5,
+        "risk_taking_scale": 4,
+        "emotional_stability": 7,
+        "openness_to_experience": 8,
+        "conscientiousness": 9,
+        "agreeableness": 6,
+        "neuroticism": 4
+    },
+    "education_and_career": {
+        "current_occupation": "Software Engineer",
+        "highest_education_level": "Bachelor's Degree",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 180.0,
+        "weight_in_kg": 75.0,
+        "eye_color": "Brown",
+        "hair_color": "Black",
+        "skin_tone": "Dark"
+    },
+    "personal_life": {
+        "relationship_status": "Married",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Atheist",
+        "political_views": "Centrist",
+        "hobbies": ["Coding", "Gaming", "Hiking"],
+        "rent_in_usd": 0
+    },
+    "preferences": {
+        "favorite_color": "Green",
+        "favorite_food": "Curry",
+        "favorite_movie": "The Matrix",
+        "favorite_book": "Neuromancer",
+        "favorite_music_genre": "Electronic",
+        "favorite_sport": "Basketball",
+        "pet_preference": "Cats"
+    },
+    "skills_and_abilities": {
+        "leadership": 6,
+        "communication": 7,
+        "problem_solving": 10,
+        "creativity": 8,
+        "adaptability": 7,
+        "stress_management": 6,
+        "work_ethic": 9,
+        "time_management": 8,
+        "financial_management": 8,
+        "tech_savviness": 10,
+        "patience": 0,
+        "travel_experience": 8
+    },
+    "experiences": [],
+    "events_latest_10": [],
+    "highlight_3_max": [],
+    "lowlight_3_max": []
+}
+{
+    "basic_info": {
+        "id": 3,
+        "name": "Chen Wei",
+        "gender": "male",
+        "birthday": "1995-11-18",
+        "age": 28,
+        "nationality": "Chinese",
+        "ethnicity": "Han Chinese",
+        "city": "Beijing",
+        "home_city": "Beijing",
+        "native_language": "Mandarin",
+        "other_languages": ["English", "Japanese"],
+        "Zodiac_sign": "Scorpio"
+    },
+    "personality_and_psychology": {
+        "personality": "ENFP",
+        "iq": 118,
+        "eq": 130,
+        "introvert_extrovert_scale": 7,
+        "optimism_pessimism_scale": 8,
+        "risk_taking_scale": 6,
+        "emotional_stability": 8,
+        "openness_to_experience": 10,
+        "conscientiousness": 7,
+        "agreeableness": 9,
+        "neuroticism": 5
+    },
+    "education_and_career": {
+        "current_occupation": "Graphic Designer",
+        "highest_education_level": "Master's Degree",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 165.0,
+        "weight_in_kg": 55.0,
+        "eye_color": "Black",
+        "hair_color": "Black",
+        "skin_tone": "Light"
+    },
+    "personal_life": {
+        "relationship_status": "In a relationship",
+        "sexual_orientation": "Pansexual",
+        "religion": "Buddhist",
+        "political_views": "Progressive",
+        "hobbies": ["Painting", "Photography", "Meditation"],
+        "rent_in_usd": 0
+    },
+    "preferences": {
+        "favorite_color": "Turquoise",
+        "favorite_food": "Hot Pot",
+        "favorite_movie": "Spirited Away",
+        "favorite_book": "The Little Prince",
+        "favorite_music_genre": "World Music",
+        "favorite_sport": "Tai Chi",
+        "pet_preference": "Fish"
+    },
+    "skills_and_abilities": {
+        "leadership": 7,
+        "communication": 9,
+        "problem_solving": 8,
+        "creativity": 10,
+        "adaptability": 9,
+        "stress_management": 8,
+        "work_ethic": 8,
+        "time_management": 7,
+        "financial_management": 6,
+        "tech_savviness": 8,
+        "patience": 0,
+        "travel_experience": 12
+    },
+    "experiences": [],
+    "events_latest_10": [],
+    "highlight_3_max": [],
+    "lowlight_3_max": []
+}
+{
+    "date": "2023-Aug-15",
+    "weather": [
+        {
+            "city_name": "Emeryville, CA",
+            "weather_in_stort_string": "Sunny"
+        },
+        {
+            "city_name": "London",
+            "weather_in_stort_string": "Partly cloudy"
+        },
+        {
+            "city_name": "Beijing",
+            "weather_in_stort_string": "Thunderstorms"
+        }
+    ],
+    "events": [
+        {
+            "participant": [1],
+            "type": "work",
+            "start_time": "09:00",
+            "end_time": "17:00",
+            "description": "Alice Johnson, the Marketing Manager, dives into a day of strategic planning for the upcoming campaign. She leads a brainstorming session with her team to generate innovative ideas for a new product launch."
+        },
+        {
+            "participant": [2],
+            "type": "work",
+            "start_time": "08:30",
+            "end_time": "16:30",
+            "description": "Bob Smith, the Software Engineer, focuses on debugging a complex codebase today. He collaborates with his team members to resolve critical issues and optimize the software performance."
+        },
+        {
+            "participant": [3],
+            "type": "work",
+            "start_time": "10:00",
+            "end_time": "18:00",
+            "description": "Chen Wei, the Graphic Designer, works on a new project for a client in the fashion industry. He explores different color schemes and layouts to create visually stunning graphics."
+        },
+        {
+            "participant": [1],
+            "type": "random",
+            "start_time": "18:30",
+            "end_time": "20:00",
+            "description": "After work, Alice Johnson meets up with friends for a relaxing yoga session in the park. They unwind and catch up on each other's lives while enjoying the serene evening."
+        },
+        {
+            "participant": [2],
+            "type": "random",
+            "start_time": "19:00",
+            "end_time": "21:00",
+            "description": "Bob Smith and his wife have a cozy dinner at their favorite curry restaurant. They talk about their day and make plans for the upcoming weekend hike."
+        },
+        {
+            "participant": [3],
+            "type": "random",
+            "start_time": "20:00",
+            "end_time": "22:00",
+            "description": "Chen Wei attends a photography exhibition showcasing local artists' works. He feels inspired by the creativity and talent on display, sparking new ideas for his own projects."
+        }
+    ]
+}
+{
+    "basic_info": {
+        "id": 4,
+        "name": "Alice",
+        "gender": "female",
+        "birthday": "1998-04-05",
+        "age": 23,
+        "nationality": "Chinese",
+        "ethnicity": "Asian",
+        "city": "Davis",
+        "home_city": "Beijing",
+        "native_language": "Mandarin",
+        "other_languages": ["English"],
+        "Zodiac_sign": "Aries"
+    },
+    "personality_and_psychology": {
+        "personality": "INFP",
+        "iq": 120,
+        "eq": 110,
+        "introvert_extrovert_scale": 60,
+        "optimism_pessimism_scale": 80,
+        "risk_taking_scale": 40,
+        "emotional_stability": 70,
+        "openness_to_experience": 90,
+        "conscientiousness": 80,
+        "agreeableness": 85,
+        "neuroticism": 30
+    },
+    "education_and_career": {
+        "current_occupation": "Senior Student",
+        "highest_education_level": "Bachelor",
+        "salary_in_usd": 0
+    },
+    "physical_attributes": {
+        "height_in_cm": 165,
+        "weight_in_kg": 55,
+        "eye_color": "Brown",
+        "hair_color": "Black",
+        "skin_tone": "Fair"
+    },
+    "personal_life": {
+        "relationship_status": "Single",
+        "sexual_orientation": "Heterosexual",
+        "religion": "Non-religious",
+        "political_views": "Neutral",
+        "hobbies": ["Reading", "Painting", "Hiking"],
+        "rent_in_usd": 800
+    },
+    "preferences": {
+        "favorite_color": "Blue",
+        "favorite_food": "Sushi",
+        "favorite_movie": "Inception",
+        "favorite_book": "Pride and Prejudice",
+        "favorite_music_genre": "Pop",
+        "favorite_sport": "Swimming",
+        "pet_preference": "Cat"
+    },
+    "skills_and_abilities": {
+        "leadership": 75,
+        "communication": 85,
+        "problem_solving": 80,
+        "creativity": 90,
+        "adaptability": 70,
+        "stress_management": 80,
+        "work_ethic": 85,
+        "time_management": 75,
+        "financial_management": 70,
+        "tech_savviness": 60,
+        "patience": 80,
+        "travel_experience": 60
+    },
+    "experiences": [
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        }
+    ],
+    "events_latest_10": [
+        {
+            "character_invovled": [1],
+            "location": "Davis1",
+            "date": "2022-09-20",
+            "start_time": "10:00",
+            "end_time": "12:00",
+            "description": "Attended a study group for biology exam preparation."
+        },
+        {
+            "character_invovled": [2, 3],
+            "location": "UC Davis Library",
+            "date": "2022-09-18",
+            "start_time": "14:00",
+            "end_time": "17:00",
+            "description": "Collaborated on a group project research at the library."
+        },
+        {
+            "character_invovled": [4, 5],
+            "location": "Coffee Shop X",
+            "date": "2022-09-16",
+            "start_time": "08:30",
+            "description": "Met up with friends for breakfast and chatted about upcoming assignments."
+        },
+        {
+            "character_invovled": [6],
+            "location": "UC Davis Campus",
+            "date": "2022-09-15",
+            "start_time": "13:00",
+            "end_time": "15:00",
+            "description": "Attended a career fair to network with potential employers."
+        },
+        {
+            "character_invovled": [7, 8],
+            "location": "Davis Park",
+            "date": "2022-09-13",
+            "start_time": "16:00",
+            "description": "Played frisbee and had a picnic with friends at the park."
+        },
+        {
+            "character_invovled": [9],
+            "location": "Local Gym",
+            "date": "2022-09-11",
+            "start_time": "09:00",
+            "description": "Took a yoga class to relax and unwind after a busy week."
+        },
+        {
+            "character_invovled": [10, 11],
+            "location": "Student Commons",
+            "date": "2022-09-10",
+            "start_time": "12:30",
+            "description": "Attended a club meeting to discuss upcoming events and initiatives."
+        },
+        {
+            "character_invovled": [12, 13],
+            "location": "Downtown Davis",
+            "date": "2022-09-08",
+            "start_time": "18:00",
+            "description": "Explored new restaurants in the area with roommates."
+        },
+        {
+            "character_invovled": [14],
+            "location": "Online",
+            "date": "2022-09-07",
+            "start_time": "20:00",
+            "end_time": "22:00",
+            "description": "Attended a virtual seminar on career development."
+        },
+        {
+            "character_invovled": [15],
+            "location": "Movie Theater Y",
+            "date": "2022-09-05",
+            "start_time": "19:30",
+            "end_time": "22:00",
+            "description": "Watched the latest blockbuster movie with a group of friends."
+        }
+    ],
+    "highlight_3_max": [
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        }
+    ],
+    "lowlight_3_max": [
+        {
+            "type": "Part-time Job",
+            "organization": "Cafe C",
+            "role": "Barista",
+            "start_date": "2019-09-01",
+            "end_date": "2020-02-29",
+            "description": "Prepared and served beverages to customers."
+        },
+        {
+            "type": "Volunteer",
+            "organization": "Charity B",
+            "role": "Event Coordinator",
+            "start_date": "2020-03-15",
+            "end_date": "2021-05-15",
+            "description": "Organized fundraising events and managed volunteers."
+        },
+        {
+            "type": "Internship",
+            "organization": "Company A",
+            "role": "Marketing Intern",
+            "start_date": "2021-06-01",
+            "end_date": "2021-08-31",
+            "description": "Assisted in marketing campaigns and analyzed customer data."
+        }
+    ]
+}

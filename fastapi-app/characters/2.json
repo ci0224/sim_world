@@ -1,0 +1,82 @@
+{
+  "basic_info": {
+    "id": 2,
+    "name": "Bob Smith",
+    "gender": "male",
+    "birthday": "1988-09-03",
+    "age": 35,
+    "nationality": "British",
+    "ethnicity": "African-British",
+    "city": "London",
+    "home_city": "London",
+    "native_language": "English",
+    "other_languages": [
+      "French"
+    ],
+    "Zodiac_sign": "Virgo"
+  },
+  "personality_and_psychology": {
+    "personality": "ISTP",
+    "iq": 135,
+    "eq": 95,
+    "introvert_extrovert_scale": 3,
+    "optimism_pessimism_scale": 5,
+    "risk_taking_scale": 4,
+    "emotional_stability": 7,
+    "openness_to_experience": 8,
+    "conscientiousness": 9,
+    "agreeableness": 6,
+    "neuroticism": 4
+  },
+  "education_and_career": {
+    "current_occupation": "Software Engineer",
+    "highest_education_level": "Bachelor's Degree",
+    "salary_in_usd": 0
+  },
+  "physical_attributes": {
+    "height_in_cm": 180.0,
+    "weight_in_kg": 75.0,
+    "eye_color": "Brown",
+    "hair_color": "Black",
+    "skin_tone": "Dark"
+  },
+  "personal_life": {
+    "relationship_status": "Married",
+    "sexual_orientation": "Heterosexual",
+    "religion": "Atheist",
+    "political_views": "Centrist",
+    "hobbies": [
+      "Coding",
+      "Gaming",
+      "Hiking"
+    ],
+    "rent_in_usd": 0
+  },
+  "preferences": {
+    "favorite_color": "Green",
+    "favorite_food": "Curry",
+    "favorite_movie": "The Matrix",
+    "favorite_book": "Neuromancer",
+    "favorite_music_genre": "Electronic",
+    "favorite_sport": "Basketball",
+    "pet_preference": "Cats"
+  },
+  "skills_and_abilities": {
+    "leadership": 6,
+    "communication": 7,
+    "problem_solving": 10,
+    "creativity": 8,
+    "adaptability": 7,
+    "stress_management": 6,
+    "work_ethic": 9,
+    "time_management": 8,
+    "financial_management": 8,
+    "tech_savviness": 10,
+    "patience": 0,
+    "travel_experience": 8
+  },
+  "experiences": [],
+  "events_latest_10": [],
+  "highlight_3_max": [],
+  "lowlight_3_max": []
+}

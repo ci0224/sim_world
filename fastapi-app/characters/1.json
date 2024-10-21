@@ -1,0 +1,83 @@
+{
+  "basic_info": {
+    "id": 1,
+    "name": "Alice Johnson",
+    "gender": "female",
+    "birthday": "1990-05-15",
+    "age": 33,
+    "nationality": "American",
+    "ethnicity": "Caucasian",
+    "city": "Emeryville, CA",
+    "home_city": "Emeryville, CA",
+    "native_language": "English",
+    "other_languages": [
+      "Spanish",
+      "French"
+    ],
+    "Zodiac_sign": "Taurus"
+  },
+  "personality_and_psychology": {
+    "personality": "ENFJ",
+    "iq": 125,
+    "eq": 110,
+    "introvert_extrovert_scale": 8,
+    "optimism_pessimism_scale": 7,
+    "risk_taking_scale": 6,
+    "emotional_stability": 8,
+    "openness_to_experience": 9,
+    "conscientiousness": 8,
+    "agreeableness": 9,
+    "neuroticism": 3
+  },
+  "education_and_career": {
+    "current_occupation": "Marketing Manager",
+    "highest_education_level": "Master's Degree",
+    "salary_in_usd": 0
+  },
+  "physical_attributes": {
+    "height_in_cm": 168.0,
+    "weight_in_kg": 58.0,
+    "eye_color": "Blue",
+    "hair_color": "Blonde",
+    "skin_tone": "Fair"
+  },
+  "personal_life": {
+    "relationship_status": "Single",
+    "sexual_orientation": "Heterosexual",
+    "religion": "Agnostic",
+    "political_views": "Liberal",
+    "hobbies": [
+      "Yoga",
+      "Reading",
+      "Traveling"
+    ],
+    "rent_in_usd": 0
+  },
+  "preferences": {
+    "favorite_color": "Purple",
+    "favorite_food": "Sushi",
+    "favorite_movie": "The Shawshank Redemption",
+    "favorite_book": "To Kill a Mockingbird",
+    "favorite_music_genre": "Indie Rock",
+    "favorite_sport": "Tennis",
+    "pet_preference": "Dogs"
+  },
+  "skills_and_abilities": {
+    "leadership": 9,
+    "communication": 9,
+    "problem_solving": 8,
+    "creativity": 7,
+    "adaptability": 8,
+    "stress_management": 7,
+    "work_ethic": 9,
+    "time_management": 8,
+    "financial_management": 7,
+    "tech_savviness": 8,
+    "patience": 0,
+    "travel_experience": 15
+  },
+  "experiences": [],
+  "events_latest_10": [],
+  "highlight_3_max": [],
+  "lowlight_3_max": []
+}

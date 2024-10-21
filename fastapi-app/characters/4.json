@@ -1,0 +1,263 @@
+{
+  "basic_info": {
+    "id": 4,
+    "name": "Alice",
+    "gender": "female",
+    "birthday": "1998-04-05",
+    "age": 23,
+    "nationality": "Chinese",
+    "ethnicity": "Asian",
+    "city": "Davis",
+    "home_city": "Beijing",
+    "native_language": "Mandarin",
+    "other_languages": [
+      "English"
+    ],
+    "Zodiac_sign": "Aries"
+  },
+  "personality_and_psychology": {
+    "personality": "INFP",
+    "iq": 120,
+    "eq": 110,
+    "introvert_extrovert_scale": 60,
+    "optimism_pessimism_scale": 80,
+    "risk_taking_scale": 40,
+    "emotional_stability": 70,
+    "openness_to_experience": 90,
+    "conscientiousness": 80,
+    "agreeableness": 85,
+    "neuroticism": 30
+  },
+  "education_and_career": {
+    "current_occupation": "Senior Student",
+    "highest_education_level": "Bachelor",
+    "salary_in_usd": 0
+  },
+  "physical_attributes": {
+    "height_in_cm": 165.0,
+    "weight_in_kg": 55.0,
+    "eye_color": "Brown",
+    "hair_color": "Black",
+    "skin_tone": "Fair"
+  },
+  "personal_life": {
+    "relationship_status": "Single",
+    "sexual_orientation": "Heterosexual",
+    "religion": "Non-religious",
+    "political_views": "Neutral",
+    "hobbies": [
+      "Reading",
+      "Painting",
+      "Hiking"
+    ],
+    "rent_in_usd": 800
+  },
+  "preferences": {
+    "favorite_color": "Blue",
+    "favorite_food": "Sushi",
+    "favorite_movie": "Inception",
+    "favorite_book": "Pride and Prejudice",
+    "favorite_music_genre": "Pop",
+    "favorite_sport": "Swimming",
+    "pet_preference": "Cat"
+  },
+  "skills_and_abilities": {
+    "leadership": 75,
+    "communication": 85,
+    "problem_solving": 80,
+    "creativity": 90,
+    "adaptability": 70,
+    "stress_management": 80,
+    "work_ethic": 85,
+    "time_management": 75,
+    "financial_management": 70,
+    "tech_savviness": 60,
+    "patience": 80,
+    "travel_experience": 60
+  },
+  "experiences": [
+    {
+      "type": "Internship",
+      "organization": "Company A",
+      "role": "Marketing Intern",
+      "start_date": "2021-06-01",
+      "end_date": "2021-08-31",
+      "description": "Assisted in marketing campaigns and analyzed customer data."
+    },
+    {
+      "type": "Volunteer",
+      "organization": "Charity B",
+      "role": "Event Coordinator",
+      "start_date": "2020-03-15",
+      "end_date": "2021-05-15",
+      "description": "Organized fundraising events and managed volunteers."
+    },
+    {
+      "type": "Part-time Job",
+      "organization": "Cafe C",
+      "role": "Barista",
+      "start_date": "2019-09-01",
+      "end_date": "2020-02-29",
+      "description": "Prepared and served beverages to customers."
+    }
+  ],
+  "events_latest_10": [
+    {
+      "character_invovled": [
+        1
+      ],
+      "location": "Davis1",
+      "date": "2022-09-20",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "description": "Attended a study group for biology exam preparation."
+    },
+    {
+      "character_invovled": [
+        2,
+        3
+      ],
+      "location": "UC Davis Library",
+      "date": "2022-09-18",
+      "start_time": "14:00",
+      "end_time": "17:00",
+      "description": "Collaborated on a group project research at the library."
+    },
+    {
+      "character_invovled": [
+        4,
+        5
+      ],
+      "location": "Coffee Shop X",
+      "date": "2022-09-16",
+      "start_time": "08:30",
+      "end_time": null,
+      "description": "Met up with friends for breakfast and chatted about upcoming assignments."
+    },
+    {
+      "character_invovled": [
+        6
+      ],
+      "location": "UC Davis Campus",
+      "date": "2022-09-15",
+      "start_time": "13:00",
+      "end_time": "15:00",
+      "description": "Attended a career fair to network with potential employers."
+    },
+    {
+      "character_invovled": [
+        7,
+        8
+      ],
+      "location": "Davis Park",
+      "date": "2022-09-13",
+      "start_time": "16:00",
+      "end_time": null,
+      "description": "Played frisbee and had a picnic with friends at the park."
+    },
+    {
+      "character_invovled": [
+        9
+      ],
+      "location": "Local Gym",
+      "date": "2022-09-11",
+      "start_time": "09:00",
+      "end_time": null,
+      "description": "Took a yoga class to relax and unwind after a busy week."
+    },
+    {
+      "character_invovled": [
+        10,
+        11
+      ],
+      "location": "Student Commons",
+      "date": "2022-09-10",
+      "start_time": "12:30",
+      "end_time": null,
+      "description": "Attended a club meeting to discuss upcoming events and initiatives."
+    },
+    {
+      "character_invovled": [
+        12,
+        13
+      ],
+      "location": "Downtown Davis",
+      "date": "2022-09-08",
+      "start_time": "18:00",
+      "end_time": null,
+      "description": "Explored new restaurants in the area with roommates."
+    },
+    {
+      "character_invovled": [
+        14
+      ],
+      "location": "Online",
+      "date": "2022-09-07",
+      "start_time": "20:00",
+      "end_time": "22:00",
+      "description": "Attended a virtual seminar on career development."
+    },
+    {
+      "character_invovled": [
+        15
+      ],
+      "location": "Movie Theater Y",
+      "date": "2022-09-05",
+      "start_time": "19:30",
+      "end_time": "22:00",
+      "description": "Watched the latest blockbuster movie with a group of friends."
+    }
+  ],
+  "highlight_3_max": [
+    {
+      "type": "Internship",
+      "organization": "Company A",
+      "role": "Marketing Intern",
+      "start_date": "2021-06-01",
+      "end_date": "2021-08-31",
+      "description": "Assisted in marketing campaigns and analyzed customer data."
+    },
+    {
+      "type": "Volunteer",
+      "organization": "Charity B",
+      "role": "Event Coordinator",
+      "start_date": "2020-03-15",
+      "end_date": "2021-05-15",
+      "description": "Organized fundraising events and managed volunteers."
+    },
+    {
+      "type": "Part-time Job",
+      "organization": "Cafe C",
+      "role": "Barista",
+      "start_date": "2019-09-01",
+      "end_date": "2020-02-29",
+      "description": "Prepared and served beverages to customers."
+    }
+  ],
+  "lowlight_3_max": [
+    {
+      "type": "Part-time Job",
+      "organization": "Cafe C",
+      "role": "Barista",
+      "start_date": "2019-09-01",
+      "end_date": "2020-02-29",
+      "description": "Prepared and served beverages to customers."
+    },
+    {
+      "type": "Volunteer",
+      "organization": "Charity B",
+      "role": "Event Coordinator",
+      "start_date": "2020-03-15",
+      "end_date": "2021-05-15",
+      "description": "Organized fundraising events and managed volunteers."
+    },
+    {
+      "type": "Internship",
+      "organization": "Company A",
+      "role": "Marketing Intern",
+      "start_date": "2021-06-01",
+      "end_date": "2021-08-31",
+      "description": "Assisted in marketing campaigns and analyzed customer data."
+    }
+  ]
+}

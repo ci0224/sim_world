@@ -1,0 +1,83 @@
+{
+  "basic_info": {
+    "id": 3,
+    "name": "Chen Wei",
+    "gender": "male",
+    "birthday": "1995-11-18",
+    "age": 28,
+    "nationality": "Chinese",
+    "ethnicity": "Han Chinese",
+    "city": "Beijing",
+    "home_city": "Beijing",
+    "native_language": "Mandarin",
+    "other_languages": [
+      "English",
+      "Japanese"
+    ],
+    "Zodiac_sign": "Scorpio"
+  },
+  "personality_and_psychology": {
+    "personality": "ENFP",
+    "iq": 118,
+    "eq": 130,
+    "introvert_extrovert_scale": 7,
+    "optimism_pessimism_scale": 8,
+    "risk_taking_scale": 6,
+    "emotional_stability": 8,
+    "openness_to_experience": 10,
+    "conscientiousness": 7,
+    "agreeableness": 9,
+    "neuroticism": 5
+  },
+  "education_and_career": {
+    "current_occupation": "Graphic Designer",
+    "highest_education_level": "Master's Degree",
+    "salary_in_usd": 0
+  },
+  "physical_attributes": {
+    "height_in_cm": 165.0,
+    "weight_in_kg": 55.0,
+    "eye_color": "Black",
+    "hair_color": "Black",
+    "skin_tone": "Light"
+  },
+  "personal_life": {
+    "relationship_status": "In a relationship",
+    "sexual_orientation": "Pansexual",
+    "religion": "Buddhist",
+    "political_views": "Progressive",
+    "hobbies": [
+      "Painting",
+      "Photography",
+      "Meditation"
+    ],
+    "rent_in_usd": 0
+  },
+  "preferences": {
+    "favorite_color": "Turquoise",
+    "favorite_food": "Hot Pot",
+    "favorite_movie": "Spirited Away",
+    "favorite_book": "The Little Prince",
+    "favorite_music_genre": "World Music",
+    "favorite_sport": "Tai Chi",
+    "pet_preference": "Fish"
+  },
+  "skills_and_abilities": {
+    "leadership": 7,
+    "communication": 9,
+    "problem_solving": 8,
+    "creativity": 10,
+    "adaptability": 9,
+    "stress_management": 8,
+    "work_ethic": 8,
+    "time_management": 7,
+    "financial_management": 6,
+    "tech_savviness": 8,
+    "patience": 0,
+    "travel_experience": 12
+  },
+  "experiences": [],
+  "events_latest_10": [],
+  "highlight_3_max": [],
+  "lowlight_3_max": []
+}
