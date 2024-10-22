@@ -1,6 +1,10 @@
-# Social Simulate
+# AI Character - World Simulation
 
-## Next Step
+## Cabability Now
+
+Generate events of a day for each character and affect the characters' relationship with one another, status, abilities, and personalities.
+
+## Note for Next Step
 
 ### Oct 22, 2024
 
@@ -33,3 +37,4 @@ Need to decide a theme and a show case for it, could be combination of...
     ```
 
     Replace `your_openai_api_key_here` with your actual OPENAI API secret key.
+6. Get it running with `cd sim_world && uvicorn main:app --reload`

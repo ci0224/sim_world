@@ -35,26 +35,6 @@ def get_weather_schema():
     return Weather.model_json_schema()
 
 
-async def generate_ai_response(prompt, character1, character2):
-    try:
-        char1_json = json.dumps(character1.__dict__)
-
-        response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
-            messages=[
-                {
-                    "role": "system",
-                    "content": f"You are role-playing as {character1.name}. Respond directly in character, without any explanations or thoughts about what the character would say. Use the following information about the character: {char1_json}",
-                },
-                {"role": "user", "content": prompt},
-            ],
-        )
-        return response.choices[0].message.content.strip()
-    except Exception as e:
-        print(f"Error generating AI response: {e}")
-        return "I'm not sure how to respond to that."
-
-
 async def raw_completion(messages):
     """
     example: messages == [

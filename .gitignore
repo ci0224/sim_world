@@ -1,4 +1,4 @@
 fastapi-env/**
 .env
-fastapi-app/__pycache__/*
-fastapi-app/*.log
+sim_world/__pycache__/*
+sim_world/*.log
