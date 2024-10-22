@@ -1,36 +1,45 @@
 {
-  "date": "2023-01-06",
+  "date": "2023-01-07",
   "events": [
     {
       "id_of_character_involved": [
         1
       ],
       "location": "Emeryville, CA",
-      "date": "2023-01-06",
-      "start_time": "08:00",
-      "end_time": "10:00",
-      "description": "On a bright morning in Emeryville, CA, Alice Johnson, a marketing manager with a love for yoga, gathers by the bay to lead a sunrise yoga session. The sun casts a warm glow over the group as they stretch and breathe in harmony, the sound of seagulls adding a serene backdrop. Alice's encouraging voice guides the participants through each pose, fostering a sense of community and well-being. Amidst the snowy egret sightings and gentle waves, friendships bloom and laughter fills the air. As the session ends, Alice shares insightful reflections on inner balance and invites everyone for a post-yoga brunch to continue their conversations and connection."
+      "date": "2023-01-07",
+      "start_time": "09:00",
+      "end_time": "12:00",
+      "description": "On a bright sunny morning in Emeryville, CA, Alice Johnson, the Marketing Manager, gathered her team for a creative brainstorming session at the office. The sun's rays streamed through the windows, casting a warm glow on the enthusiastic faces of the team members, setting the perfect atmosphere for innovation. As the meeting progressed, ideas flowed like the gentle breeze outside, with Alice leading the discussion with her usual charisma and expertise. \"Let's think outside the box,\" she encouraged, igniting a spark of creativity in her colleagues. The sunny weather brushed a sense of optimism into the room, fueling the team's passion for devising groundbreaking strategies. The session concluded with a renewed sense of purpose and a shared vision for their upcoming marketing campaigns."
     },
     {
       "id_of_character_involved": [
-        2,
-        4
+        2
       ],
       "location": "London",
-      "date": "2023-01-06",
-      "start_time": "15:30",
-      "end_time": "18:00",
-      "description": "On a crisp, sunny afternoon in London, Bob and Alice agreed to meet at a cozy cafe for their collaborative coding session. As they delved into lines of code, the bustling chatter of other patrons mingled with the soft clinks of teacups, creating a comforting ambiance. Bob, sipping his Earl Grey tea, exclaimed, 'I've cracked it! This function will optimize our program significantly.' Alice, nibbling on a scone, grinned in agreement, 'That's brilliant! With this algorithm, we'll definitely impress our colleagues at the tech meetup.' The sunlight danced through the windows, casting a warm glow on their faces as they worked seamlessly towards their coding breakthrough. The event not only boosted their technical skills but also deepened their friendship, laying the foundation for future innovative projects."
+      "date": "2023-01-07",
+      "start_time": "15:00",
+      "end_time": "17:00",
+      "description": "Bob Smith, the Software Engineer, enthusiastically participated in a coding challenge at a tech meetup in London. The cozy atmosphere intensified the focus and determination of the participants as they tackled complex coding problems. Amidst the cloudy weather outside, inside, the atmosphere buzzed with energy as Bob collaborated with other developers, engaging in deep discussions about innovative coding solutions. 'I never thought of approaching the problem that way,' Bob exclaimed, sharing ideas with a fellow programmer. The challenging tasks pushed Bob to showcase his problem-solving skills with a renewed vigor, leaving a lasting impression on the event attendees."
     },
     {
       "id_of_character_involved": [
         3
       ],
       "location": "Beijing",
-      "date": "2023-01-06",
-      "start_time": "19:00",
-      "end_time": "21:00",
-      "description": "Attended the photography exhibition opening event, showcasing stunning captures under the snowy Beijing sky. Chen Wei, mingling with fellow artists, felt inspired by the creativity surrounding him. The chilly air added a sense of anticipation to the event, making each photograph appear even more captivating. Chen Wei's conversations with renowned photographers led to insightful discussions about light and composition, igniting new ideas in his own work. As he admired the diverse perspectives on display, he realized the power of visual storytelling in conveying emotions. This experience challenged his artistic boundaries and left him eager to experiment with fresh concepts in his graphic designs."
+      "date": "2023-01-07",
+      "start_time": "18:00",
+      "end_time": "20:00",
+      "description": "Chen Wei, the Graphic Designer, spent the evening exploring a traditional Chinese lantern festival with friends in Beijing. The crisp and clear weather added a magical touch to the vibrant lantern displays, casting a warm glow on the snow-covered ground. Chen Wei marveled at the intricate designs of the lanterns, each telling a story of ancient myths and legends. Amidst the lantern-lit pathways, Chen Wei's laughter merged with the cheerful chatter around him, creating an atmosphere of joy and camaraderie. As he immersed himself in the festive spirit, the flickering lights sparked a sense of wonder and inspiration within him, igniting his creativity for future graphic design projects."
+    },
+    {
+      "id_of_character_involved": [
+        4
+      ],
+      "location": "Davis",
+      "date": "2023-01-07",
+      "start_time": "20:00",
+      "end_time": "22:00",
+      "description": "Alice, the Senior Student, organized a book club meeting with friends in Davis. The chilly weather encouraged cozy discussions about their latest read, enhancing the warmth and camaraderie among the book club members as they shared their insights and perspectives. The vibrant exchange of ideas sparked new interests and deepened the bond between the members."
     }
   ],
   "weathers": [
@@ -45,6 +54,10 @@
     {
       "city_name": "Beijing",
       "weather": "Snowy"
+    },
+    {
+      "city_name": "Davis",
+      "weather": "Chilly"
     }
   ]
 }

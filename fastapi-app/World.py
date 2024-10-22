@@ -7,6 +7,7 @@ from Character import Event, Character
 from datetime import datetime, timedelta
 from chat import chat_sim_one_day, world_process_event
 import asyncio
+import time
 
 
 class Weather(BaseModel):
@@ -60,6 +61,7 @@ class World(BaseModel):
         return self.date
 
     async def sim_one_day(self):
+        start_time = time.time()
         all_characters = await Character.get_all_characters()
         self.advance_date()
         current_date = self.get_current_date()
@@ -71,6 +73,14 @@ class World(BaseModel):
         self = World.load_from_json_str(response)
         self.events = await self.process_event()
         self.save()
+        end_time = time.time()
+        execution_time = end_time - start_time
+
+        # Log the execution time
+        with open(today_log_file, "a") as log_file:
+            log_file.write(
+                f"[{datetime.now()}] sim_one_day execution time: {execution_time:.2f} seconds\n"
+            )
         return {"date": current_date, "world": self.model_dump()}
 
     async def process_event(self, note=None):
