@@ -1,12 +1,15 @@
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, WebSocket
+import asyncio
 import json
-from World import World
+from World import world
 from Character import Character
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 import datetime
 from contextlib import asynccontextmanager
-
+from websocket_service import clients, notifyUpdate
+from fastapi import WebSocketDisconnect
+from websockets.exceptions import ConnectionClosedError
 
 Character.load_all_characters
 
@@ -21,15 +24,50 @@ app = FastAPI(lifespan=lifespan)
 scheduler = AsyncIOScheduler()
 
 
+@app.websocket("/ws")
+async def websocket_endpoint(websocket: WebSocket):
+    await websocket.accept()
+    clients.append(websocket)
+    await websocket.send_json({"event": "init", "world": world.model_dump()})
+    try:
+        # Periodically send updates
+        while True:
+            try:
+                message = {"event": "alive", "status": "Event ongoing"}
+                await websocket.send_json(message)
+                await asyncio.sleep(15)
+            except ConnectionClosedError as ce:
+                print(f"WebSocket connection closed: {ce}")
+                break
+            except Exception as e:
+                print(f"Error sending message: {str(e)}")
+                break
+    except WebSocketDisconnect:
+        print(f"Client #{id(websocket)} disconnected normally")
+    except Exception as e:
+        print(f"WebSocket error: {str(e)}, type: {type(e)}")
+    finally:
+        if websocket in clients:
+            clients.remove(websocket)
+        print(f"Client #{id(websocket)} connection cleaned up")
+
+
+@app.post("/interact")
+async def interact():
+    message = {"event": "interaction", "status": "User interacted"}
+    for client in clients:
+        await client.send_json(message)
+    return {"message": "Interaction sent"}
+
+
 @app.get("/")
 def read_root():
-    world = World.load_from_local()
     return world.model_dump()
 
 
+# simulate a day
 @app.get("/test")
 async def test():
-    world = World.load_from_local()
     response = await world.sim_one_day()
     return json.dumps(response)
 

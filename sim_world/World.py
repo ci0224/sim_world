@@ -8,6 +8,7 @@ from datetime import datetime, timedelta
 from chat import chat_sim_one_day, world_process_event
 import asyncio
 import time
+from websocket_service import notifyUpdate
 
 
 class Weather(BaseModel):
@@ -73,6 +74,7 @@ class World(BaseModel):
         self = World.load_from_json_str(response)
         self.events = await self.process_event()
         self.save()
+        notifyUpdate("World", None, self.model_dump())
         end_time = time.time()
         execution_time = end_time - start_time
 
@@ -103,6 +105,10 @@ class World(BaseModel):
                 for cj in response["related_characters"]:
                     char = Character(**cj)
                     char.save()
+                    notifyUpdate("Character", char.basic_info.id, char.model_dump())
                 new_event.append(Event(**response["event"]))
             f.write(f"Finished processing events.\n")
         return new_event
+
+
+world = World.load_from_local()

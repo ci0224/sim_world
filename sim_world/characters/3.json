@@ -83,10 +83,20 @@
         3
       ],
       "location": "Beijing",
-      "date": "2023-01-07",
-      "start_time": "18:00",
+      "date": "2023-01-08",
+      "start_time": "17:30",
+      "end_time": "19:00",
+      "description": "Chen Wei, the Graphic Designer, participated in a design workshop in Beijing. The snowy weather added a touch of magic to the creative sessions, inspiring Chen Wei to experiment with new artistic techniques and designs."
+    },
+    {
+      "id_of_character_involved": [
+        3
+      ],
+      "location": "Beijing",
+      "date": "2023-01-09",
+      "start_time": "18:30",
       "end_time": "20:00",
-      "description": "Chen Wei, the Graphic Designer, attended a meditation and painting workshop in Beijing. The snowy weather outside provided a serene backdrop for the creative activities, allowing Chen Wei to channel his artistic expressions into beautiful and calming artworks."
+      "description": "Chen Wei, the Graphic Designer, attended a meditation class in Beijing. The snowy weather outside mirrored the calm and peaceful atmosphere of the meditation session, allowing Chen Wei to relax and recharge after a long day."
     }
   ],
   "highlight_3_max": [],

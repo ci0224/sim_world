@@ -76,7 +76,18 @@
     "travel_experience": 8
   },
   "experiences": [],
-  "events_latest_10": [],
+  "events_latest_10": [
+    {
+      "id_of_character_involved": [
+        2
+      ],
+      "location": "London",
+      "date": "2023-01-09",
+      "start_time": "13:30",
+      "end_time": "15:00",
+      "description": "Bob Smith, the Software Engineer, explored a new hiking trail in London. The overcast skies created a moody atmosphere, adding a sense of adventure to the outdoor activity. The brisk wind made Bob's dark skin tingle with excitement as he navigated through the winding paths. Along the way, Bob encountered a group of local hikers who shared stories of hidden gems in the area. The snowy tips of distant mountains added a breathtaking backdrop to the rugged landscape, stirring Bob's sense of awe and wanderlust."
+    }
+  ],
   "highlight_3_max": [],
   "lowlight_3_max": []
 }
