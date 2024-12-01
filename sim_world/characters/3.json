@@ -97,6 +97,46 @@
       "start_time": "18:30",
       "end_time": "20:00",
       "description": "Chen Wei, the Graphic Designer, attended a meditation class in Beijing. The snowy weather outside mirrored the calm and peaceful atmosphere of the meditation session, allowing Chen Wei to relax and recharge after a long day."
+    },
+    {
+      "id_of_character_involved": [
+        3
+      ],
+      "location": "Beijing",
+      "date": "2023-01-10",
+      "start_time": "17:00",
+      "end_time": null,
+      "description": "Chen Wei got inspired by the snowy weather and worked on a new graphic design project at home. The falling snowflakes danced against his window, each one a unique piece of art that sparked his imagination."
+    },
+    {
+      "id_of_character_involved": [
+        3
+      ],
+      "location": "Beijing",
+      "date": "2023-01-11",
+      "start_time": "11:00",
+      "end_time": null,
+      "description": "Chen Wei spent the morning creating new designs inspired by snowy landscapes."
+    },
+    {
+      "id_of_character_involved": [
+        3
+      ],
+      "location": "Beijing",
+      "date": "2023-01-11",
+      "start_time": "14:00",
+      "end_time": "16:00",
+      "description": "Chen Wei attended an art appreciation session at a local gallery. The snowy weather outside created a cozy atmosphere as he soaked in the creative energy around him. 'Look at how the snow transforms the scenery,' he remarked to a fellow participant, his eyes sparkling with enthusiasm. 'It\u2019s just like art; it changes the way we perceive the world.' Surrounded by snow-themed artwork, he felt inspired to express these emotions through his own designs, seeing how the artists captured the essence of winter in different mediums. 'Can you feel the chill in this piece?' he asked the artist, who nodded and smiled. The warmth inside the gallery and the sharing of ideas continued to fuel his passion for art."
+    },
+    {
+      "id_of_character_involved": [
+        3
+      ],
+      "location": "Beijing",
+      "date": "2023-01-11",
+      "start_time": "17:00",
+      "end_time": "18:30",
+      "description": "Chen joined a group meditation session that focused on mindfulness amidst the snowy weather."
     }
   ],
   "highlight_3_max": [],

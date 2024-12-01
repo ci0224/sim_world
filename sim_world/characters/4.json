@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "id": 4,
-    "name": "Alice",
+    "name": "Ash",
     "gender": "female",
     "birthday": "1998-04-05",
     "age": 23,
@@ -76,18 +76,7 @@
     "travel_experience": 60
   },
   "experiences": [],
-  "events_latest_10": [
-    {
-      "id_of_character_involved": [
-        4
-      ],
-      "location": "Davis",
-      "date": "2023-01-07",
-      "start_time": "20:00",
-      "end_time": "22:00",
-      "description": "Alice, the Senior Student, organized a book club meeting with friends in Davis. The chilly weather encouraged cozy discussions about their latest read, enhancing the warmth and camaraderie among the book club members as they shared their insights and perspectives. The vibrant exchange of ideas sparked new interests and deepened the bond between the members."
-    }
-  ],
+  "events_latest_10": [],
   "highlight_3_max": [],
   "lowlight_3_max": []
 }

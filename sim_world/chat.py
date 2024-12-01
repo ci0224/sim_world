@@ -2,6 +2,7 @@ import os
 from typing import Literal
 from dotenv import load_dotenv
 from openai import OpenAI
+import CoTTemplate
 import json
 import functools
 
@@ -37,6 +38,10 @@ def get_weather_schema():
     return Weather.model_json_schema()
 
 
+async def raw_completion_explicit_cot(messages):
+    return await raw_completion(CoTTemplate.template_in_message + messages)
+
+
 async def raw_completion(messages):
     """
     example: messages == [
@@ -49,7 +54,7 @@ async def raw_completion(messages):
     """
     try:
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model=default_model,
             messages=messages,
         )
         content = response.choices[0].message.content.strip()
@@ -79,13 +84,13 @@ all persons: {all_character_json}
 today: {date}
 1. For "city" each person in, generate today's weather, weather's schema is {weather_schema}. \
 Store the weather of each city in a list, WEATHER_LIST
-2. For each character, generate 3-10 events, based on info known and weather in the city. \
+2. For each character, generate 3 events for them, based on info known and weather in the city. \
 Event's schema is {event_schema}, store the events in a list, EVENTS_LIST
 4. Return the simulated day in json strictly follows schema: {World.get_schema()}, without any explanations or thoughts.
 """,
         },
     ]
-    return await raw_completion(messages)
+    return await raw_completion_explicit_cot(messages)
 
 
 async def fix_character(user_data_json):
@@ -173,7 +178,7 @@ Original Event: {event.model_dump()}
 
 6. Return the result in this exact JSON format, without any explanations or thoughts:
 {{
-  "related_characters": NEW_CHARACTERS,
+  "related_characters": [NEW_CHARACTERS],
   "event": NEW_EVENT
 }}
 

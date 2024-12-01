@@ -21,13 +21,13 @@
     "iq": 125,
     "eq": 110,
     "introvert_extrovert_scale": 80,
-    "optimism_pessimism_scale": 70,
+    "optimism_pessimism_scale": 71,
     "risk_taking_scale": 61,
     "emotional_stability": 81,
-    "openness_to_experience": 91,
+    "openness_to_experience": 92,
     "conscientiousness": 81,
     "agreeableness": 93,
-    "neuroticism": 34
+    "neuroticism": 33
   },
   "education_and_career": {
     "current_occupation": "Marketing Manager",
@@ -73,7 +73,7 @@
     "time_management": 80,
     "financial_management": 70,
     "tech_savviness": 80,
-    "patience": 20,
+    "patience": 21,
     "travel_experience": 15
   },
   "experiences": [],

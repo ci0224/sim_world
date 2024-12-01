@@ -5,6 +5,7 @@ import json
 import os
 from typing import List, Optional, Dict, Any
 from chat import fix_character, new_character
+import util
 
 
 class Gender(str, Enum):
@@ -196,7 +197,7 @@ class Character(BaseModel):
 
     @classmethod
     async def fix_with_chat(cls, user_data_json):
-        result = await fix_character(user_data_json)
+        result = util.extract_longest_json(await fix_character(user_data_json))
         print(result)
         return result
 
